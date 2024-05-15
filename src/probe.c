@@ -192,7 +192,7 @@ int main(int argc, char **argv)
 	int lastAccept=0;
 
 	char line [128]; 
-    	while (fgets(line, sizeof line, ofile) != NULL) 
+	while (fgets(line, sizeof line, ofile) != NULL) 
 	{
 		indx++; 
 		lastWindow = atoi(line);
@@ -215,26 +215,26 @@ int main(int argc, char **argv)
 		exit(1);
 	}
 
-	//printf("unbinding existing nf_queue handler for AF_INET (if any)\n");
+	printf("unbinding existing nf_queue handler for AF_INET (if any)\n");
 	if (nfq_unbind_pf(h, AF_INET) < 0) {
 		fprintf(stderr, "error during nfq_unbind_pf()\n");
 		exit(1);
 	}
 
-	//printf("binding nfnetlink_queue as nf_queue handler for AF_INET\n");
+	printf("binding nfnetlink_queue as nf_queue handler for AF_INET\n");
 	if (nfq_bind_pf(h, AF_INET) < 0) {
 		fprintf(stderr, "error during nfq_bind_pf()\n");
 		exit(1);
 	}
 
-	//printf("binding this socket to queue '0'\n");
+	printf("binding this socket to queue '0'\n");
 	qh = nfq_create_queue(h,  0, &cb, NULL);
 	if (!qh) {
 		fprintf(stderr, "error during nfq_create_queue()\n");
 		exit(1);
 	}
 
-	//printf("setting copy_packet mode\n");
+	printf("setting copy_packet mode\n");
 	if (nfq_set_mode(qh, NFQNL_COPY_PACKET, 0xffff) < 0) {
 		fprintf(stderr, "can't set packet_copy mode\n");
 		exit(1);
@@ -260,6 +260,7 @@ int main(int argc, char **argv)
 	strcat(get,"&"); //echo $!");
 	system(get);
  
+ 	printf("start to recv packets...\n");
 	while ((rv = recv(fd, buf, sizeof(buf), 0)) && rv >= 0 && done==0){
 		usleep(delay);
 		nfq_handle_packet(h, buf, rv);
@@ -267,6 +268,7 @@ int main(int argc, char **argv)
 		counter++;
 	}
 	
+	printf("complete receiving and destroy session\n");
 	destroySession(h, qh);
 
 	if(done==-1)

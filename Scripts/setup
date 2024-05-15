@@ -1,0 +1,5 @@
+#!/bin/bash
+
+myname=${0##*/}
+# shellcheck disable=SC1091
+source "scripts/utils"
