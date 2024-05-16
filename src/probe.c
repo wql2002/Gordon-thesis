@@ -28,7 +28,7 @@
 #include <math.h>
 
 #define OWD 125
-#define DROPPOINT 40
+#define DROPPOINT 80
 
 int drop = 1;
 int acceptWindow = 0;
@@ -111,19 +111,28 @@ static int cb(struct nfq_q_handle *qh, struct nfgenmsg *nfmsg,
 	unsigned char *pkt;
 	struct nfqnl_msg_packet_hdr *header;
 	uint32_t id = 0;
-	uint32_t tseq = 0;
+	uint32_t tseq = 0;	// tcp sequence number
 
 	header = nfq_get_msg_packet_hdr(nfa);
 	id = ntohl(header->packet_id);
-	unsigned int ret = nfq_get_payload(nfa, &pkt);
+	nfq_get_payload(nfa, &pkt);
+	// printf("[NFQ][CB] %s\n", pkt);
 	
 	unsigned int by = 0;
 	for (int i = 24; i < 28; i++) {
 		by = (unsigned int) pkt[i];
 		tseq += by << 8*(24-i);
 	}
+	printf("[NFQ][CB] tseq: %u\n", tseq);
+	printf("[NFQ][CB] randomSeq: %u\n", randomSeq);
+	printf("[NFQ][CB] acceptWindow: %d\n", acceptWindow);
+	printf("[NFQ][CB] cap: %d\n", cap);
+	printf("[NFQ][CB] emuDrop: %d\n", emuDrop);
+	printf("[NFQ][CB] dropSeq: %d\n", dropSeq);
+
 	
 	if(tseq == randomSeq){
+		// printf("[NFQ][CB] case 0: NF_ACCEPT\n");
 		return nfq_set_verdict(qh, id, NF_ACCEPT, 0, NULL);
 	}
 	else if(acceptWindow < cap){		
@@ -131,10 +140,12 @@ static int cb(struct nfq_q_handle *qh, struct nfgenmsg *nfmsg,
 			ss=0;
 			acceptWindow++;
 			randomSeq = tseq;
+			// printf("[NFQ][CB] case 1: NF_DROP\n");
 			return nfq_set_verdict(qh, id, NF_DROP, 0, NULL);
 		}
 		else{
 			acceptWindow++;
+			// printf("[NFQ][CB] case 2: NF_ACCEPT\n");
 			return nfq_set_verdict(qh, id, NF_ACCEPT, 0, NULL);
 		}
 	}
@@ -147,6 +158,7 @@ static int cb(struct nfq_q_handle *qh, struct nfgenmsg *nfmsg,
 		//	done=-1;
 		//else	
 		done=1;
+		// printf("[NFQ][CB] case 3: NF_ACCEPT\n");
 		return nfq_set_verdict(qh, id, NF_ACCEPT, 0, NULL);
 	}
 	else{
@@ -159,6 +171,7 @@ static int cb(struct nfq_q_handle *qh, struct nfgenmsg *nfmsg,
 		dropWindow++;
 		//buff[dropWindow]=getBuff();
 		//printf("\n%d %d ", counter, getBuff());
+		// printf("[NFQ][CB] case 4: NF_DROP\n");
 		return nfq_set_verdict(qh, id, NF_DROP, 0, NULL);
 	}
 }
@@ -196,6 +209,8 @@ int main(int argc, char **argv)
 	{
 		indx++; 
 		lastWindow = atoi(line);
+		printf("[DEBUG] getWinsize(line): %d\n", getWinSize(line));
+		printf("[DEBUG] lastWindow: %d\n", lastWindow);
 		if(inputting==0){
 			if(getWinSize(line)>DROPPOINT){
 				emuDrop = lastAccept;
@@ -262,8 +277,10 @@ int main(int argc, char **argv)
  
  	printf("start to recv packets...\n");
 	while ((rv = recv(fd, buf, sizeof(buf), 0)) && rv >= 0 && done==0){
+		printf("[NFQ] nfq_handle_packet begin ...\n");
 		usleep(delay);
 		nfq_handle_packet(h, buf, rv);
+		printf("[NFQ] nfq_handle_packet finished ...\n\n");
 		if(counter>switchPoint) delay=nextDelay;
 		counter++;
 	}
@@ -287,6 +304,11 @@ int main(int argc, char **argv)
 		char in[5];
 		char cmd[]="echo ";
 		//write data to windows.csv
+		// [0]: number (nextVal)
+		// [1]: window (nextVal-acceptWindow)
+		// [2]: in (indx)
+		printf("[DEBUG] nextVal: %d\n[DEBUG] nextVal-acceptWindow: %d\n", 
+				nextVal, nextVal-acceptWindow);
 		itoa(nextVal, number);
 		strcat(cmd, number);
 		strcat(cmd," ");
