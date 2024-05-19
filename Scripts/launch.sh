@@ -6,6 +6,7 @@ NETIF_NAME="ech0" # default interface name
 DST_ADDR="100.64.0.2"
 URL=${1:-"www.baidu.com"}
 
+
 echo "[Gordon] start testing!"
 echo "[Gordon] set up network interface MTU"
 sudo ifconfig ${NETIF_NAME} mtu 296
@@ -21,7 +22,8 @@ do
 
 	sudo iptables -I INPUT -p tcp -d ${DST_ADDR} -m state --state ESTABLISHED -j NFQUEUE --queue-num 0
 	echo "--------------------------------- RTT-$i ----------------------"
-	sudo ${SRC_PATH}/src/prober ${URL} 8000 5000 1000
+	# sudo ${SRC_PATH}/src/prober ${URL} 8000 5000 1000
+	sudo ${SRC_PATH}/src/prober ${URL} 2000 3000 1500
 	# sudo ${SRC_PATH}/src/prober ${URL} 8000 5000 1000 >> ${SRC_PATH}/Data/buff.csv
 	sleep 20
 	rm -f index*

@@ -6,14 +6,18 @@ import os
 plotting = False
 url_map = {}
 
-def classify(tcpFile): #, filename, plotPath):
+def classify(tcpFile, mode): #, filename, plotPath):
     global plotting
     global url_map
     answer = {}
     warnings.filterwarnings("ignore")
     try:
-        tcpDatas = np.loadtxt(fname=tcpFile, delimiter=' ', usecols=(1,2))
+        if mode == 0:
+            tcpDatas = np.loadtxt(fname=tcpFile, delimiter=' ', usecols=(1,2))
+        else:
+            tcpDatas = np.loadtxt(fname=tcpFile, delimiter=' ', usecols=(0,2))
         tcpDatas[:,[0,-1]] = tcpDatas[:,[-1, 0]]
+        # print(tcpDatas)
         tcpRounds = tcpDatas[:,0]
         tcpWindows = tcpDatas[:,-1]
         tcpPackets = list(np.loadtxt(fname=tcpFile, delimiter=' ', usecols=(1)))
@@ -28,6 +32,7 @@ def classify(tcpFile): #, filename, plotPath):
             plt.close()
     	"""
     except Exception as e:
+        print(e)
         answer['method'] = "short_flow_no_data"
         return answer['method']
     
@@ -339,8 +344,8 @@ def classify(tcpFile): #, filename, plotPath):
     bbrWindows = []
     for i in range(len(tcpDatas)-1):
         if tcpWindows[i] > 10:
-    	    validWindows += 1 
-        if tcpWindows[i] > 50 and tcpWindows[i]-tcpWindows[i-1] < 10:
+    	    validWindows += 1
+        if tcpWindows[i] > 50 and (tcpWindows[i] - tcpWindows[i-1]) < 10:
     	    bbrWindows.append(tcpWindows[i])
     	    flatness.append(np.floor(np.std(tcpWindows[i-2:i])))
     flatness.sort()
@@ -465,7 +470,12 @@ def classify(tcpFile): #, filename, plotPath):
         return "short flow"
     """
 
-folder = sys.argv[1]
+# folder = sys.argv[1]
 
-for i in range(5000,50000):
-    print( i, classify(folder+str(i)+.csv))
+# for i in range(5000,50000):
+#     print( i, classify(folder+str(i)+".csv"))
+
+if __name__ == "__main__":
+    file_path = sys.argv[1]
+    my_mode = sys.argv[2]  # 0: normal; 1: reverse
+    print(classify(file_path, my_mode))

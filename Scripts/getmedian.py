@@ -1,3 +1,5 @@
+# Usage: python getmedian.py <i-th RTT> <max trial numbers> <directory's domain name>
+
 import os
 import signal
 import sys
@@ -6,8 +8,11 @@ import subprocess
 windows=list()
 counter=0
 
+ROOT_ADDR = "/home/vagrant"
+DOMAIN_NAME = sys.argv[3]
+
 for i in range(int(sys.argv[2])):
-    infile="../Data/windows"+str(i+1)+".csv"
+    infile = ROOT_ADDR + "/Data/" + DOMAIN_NAME + "/windows" + str(i + 1) + ".csv"
     read = open(infile, 'r')
     length=int(subprocess.check_output(['wc','-l',infile]).split(' ')[0])
     if length >= int(sys.argv[1]):
@@ -22,7 +27,7 @@ windows.sort()
 median=int(windows[counter-1])
 print windows
 
-outfile="../Data/windows.csv"
+outfile = ROOT_ADDR + "/Data/" + DOMAIN_NAME + "/windows.csv"
 out = open(outfile, 'r')
 
 length=int(subprocess.check_output(['wc','-l',outfile]).split(' ')[0])
