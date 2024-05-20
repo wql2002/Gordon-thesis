@@ -23,14 +23,13 @@ start = int(sys.argv[1])
 i = start
 
 while i < start + len(urlInfos):
-    print("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&  CURRENT OFFSET   ===", i, "=== &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&")
     cur_url_status = None
     urlInfos[i] = urlInfos[i][0].split(" ")
     # print(urlInfos[i])
     try:
         cur_url_status = urlInfos[i][3]
     except Exception as e:
-        print(e)
+        # print(e)
         cur_url_status = "notdone"
     
     if cur_url_status == "notdone":
@@ -41,7 +40,10 @@ while i < start + len(urlInfos):
         targetIndex = urlInfos[i][0]
         targetDomain = urlInfos[i][1]
         targetURL = urlInfos[i][2]
-        print("===================================================>", targetURL, "\n================", targetIndex, targetDomain, targetURL)
+        print('[start.py][OFFSET-{}] {}'.format(i, targetIndex))
+        print('                      {}'.format(targetDomain))
+        print('                      {}'.format(targetURL))
+        # print("===================================================>", targetURL, "\n================", targetIndex, targetDomain, targetURL)
 
         try:
             response = subprocess.check_output(

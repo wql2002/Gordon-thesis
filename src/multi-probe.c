@@ -29,6 +29,7 @@
 #include <linux/tcp.h>
 #include <linux/ip.h>
 #include <sys/time.h>
+#include <sys/select.h>
 #include <string.h>
 #include <pthread.h>
 #include <math.h>
@@ -131,7 +132,7 @@ static int cb(struct nfq_q_handle *qh, struct nfgenmsg *nfmsg,
 
 	header = nfq_get_msg_packet_hdr(nfa);
 	id = ntohl(header->packet_id);
-	unsigned int ret = nfq_get_payload(nfa, &pkt);
+	nfq_get_payload(nfa, &pkt);
 	
 	unsigned int by = 0;
 	int i = 24;
@@ -141,7 +142,7 @@ static int cb(struct nfq_q_handle *qh, struct nfgenmsg *nfmsg,
 	}
 	// printf("[NFQ][CB] tseq: %u\n", tseq);
 	// printf("[NFQ][CB] randomSeq: %u\n", randomSeq);
-	// printf("[NFQ][CB] acceptWindow: %d\n", acceptWindow);
+	printf("[NFQ][CB] acceptWindow: %d\n", acceptWindow);
 	// printf("[NFQ][CB] cap: %d\n", cap);
 	// printf("[NFQ][CB] emuDrop: %d\n", emuDrop);
 	// printf("[NFQ][CB] dropSeq: %d\n", dropSeq);
@@ -296,13 +297,14 @@ int main(int argc, char **argv)
 		//char get[] ="wget -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O /dev/null '";
 		//as mobile client
 		//char get[] ="wget -U 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0 Mobile/15D100 Safari/604.1' -O /dev/null '";
-		char get[] ="wget -t 10 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage -t 5 -T 45 \"";
+		char get[] ="wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate ";
 		strcat(get, argv[1]);
-		strcat(get, "\" --no-check-certificate");
+		// strcat(get, "\"");
 		printf("%s\n", get);
 		system(get);
 		printf("=========DONE WITH WGET!");
 		done = 1;
+		destroySession(h, qh);
 		exit(0);
 	}
 	else{
@@ -310,9 +312,9 @@ int main(int argc, char **argv)
 
 		while (done == 0 && (rv = recv(fd, buf, sizeof(buf), 0)) && rv >= 0){
 			usleep(delay);
-			// printf("[NFQ] nfq_handle_packet begin ...\n");
+			printf("[NFQ] nfq_handle_packet begin ...\n");
 			nfq_handle_packet(h, buf, rv);
-			// printf("[NFQ] nfq_handle_packet finished ...\n\n");
+			printf("[NFQ] nfq_handle_packet finished ...\n\n");
 			if(counter>switchPoint) delay=nextDelay;
 			counter++;
 			status = kill(pid, 0);
@@ -326,6 +328,47 @@ int main(int argc, char **argv)
 				break;
 			}
 		}
+
+		// // set some timeout params
+		// int timeout_seconds = 5;
+		// struct timeval timeout;
+		// fd_set readfds;
+
+		// FD_ZERO(&readfds); // 初始化文件描述符集合
+		// FD_SET(fd, &readfds); // 添加套接字到集合
+
+		// int max_fd = fd; // 假设fd是最大的文件描述符
+
+		// while (done == 0) {
+		// 	timeout.tv_sec = timeout_seconds;
+    	// 	timeout.tv_usec = 0;
+
+		// 	int ret = select(max_fd + 1, &readfds, NULL, NULL, &timeout);
+		// 	if (ret == -1) {
+		// 		printf("[WGET] select error...\n");
+		// 		break;
+		// 	} else if (ret == 0) {
+		// 		printf("[WGET] timeout...\n");
+		// 		break;
+		// 	} else {
+		// 		if (FD_ISSET(fd, &readfds)) {
+		// 			rv = recv(fd, buf, sizeof(buf), 0);
+		// 			if (rv >= 0) {
+		// 				usleep(delay);
+		// 				nfq_handle_packet(h, buf, rv);
+		// 				if(counter>switchPoint) delay=nextDelay;
+		// 				counter++;
+		// 			}
+		// 		}
+		// 	}
+
+		// 	status = kill(pid, 0);
+		// 	if (status == -1) {
+		// 		printf("\n\nWGET CHILD PROCESS HAS ENDED.\n\n");
+		// 		done = 1;
+		// 		break;
+		// 	}
+		// }
 
 		printf("\n\n================================STATUS========: %d\n", status);
 
