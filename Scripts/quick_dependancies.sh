@@ -2,7 +2,7 @@ sudo apt-get update && sudo aapt-getpt upgrade -y
 sudo apt-get install -y python
 sudo apt-get install -y python3
 sudo apt-get install -y python3-pip
-python3 -m pip install numpy
+python3 -m pip install numpy pandas matplotlib
 #sudo python3-pip install numpy
 # sudo add-apt-repository ppa:keithw/mahimahi -y
 # sudo apt-get update

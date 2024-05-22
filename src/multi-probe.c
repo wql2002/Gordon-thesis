@@ -34,6 +34,7 @@
 #include <pthread.h>
 #include <math.h>
 #include <signal.h>
+#include <errno.h>
 
 int drop = 1;
 int acceptWindow = 0;
@@ -46,6 +47,7 @@ uint32_t randomSeq=0;
 int nextVal=0;
 char buffSize[6];
 int buff[250];
+char buf[16384] __attribute__ ((aligned)); // used for receiving data from wget
 int indx = 0;
 
 int ss=1;
@@ -142,7 +144,7 @@ static int cb(struct nfq_q_handle *qh, struct nfgenmsg *nfmsg,
 	}
 	// printf("[NFQ][CB] tseq: %u\n", tseq);
 	// printf("[NFQ][CB] randomSeq: %u\n", randomSeq);
-	printf("[NFQ][CB] acceptWindow: %d\n", acceptWindow);
+	// printf("[NFQ][CB] acceptWindow: %d\n", acceptWindow);
 	// printf("[NFQ][CB] cap: %d\n", cap);
 	// printf("[NFQ][CB] emuDrop: %d\n", emuDrop);
 	// printf("[NFQ][CB] dropSeq: %d\n", dropSeq);
@@ -160,12 +162,12 @@ static int cb(struct nfq_q_handle *qh, struct nfgenmsg *nfmsg,
 			ss=0;
 			acceptWindow++;
 			randomSeq = tseq;
-			// printf("[NFQ][CB] case 1: NF_DROP\n");
+			// printf("\n[NFQ][CB] case 1: NF_DROP\n");
 			return nfq_set_verdict(qh, id, NF_DROP, 0, NULL);
 		}
 		else{
 			acceptWindow++;
-			// printf("[NFQ][CB] case 2: NF_ACCEPT\n");
+			// printf("\n[NFQ][CB] case 2: NF_ACCEPT\n");
 			return nfq_set_verdict(qh, id, NF_ACCEPT, 0, NULL);
 		}
 	}
@@ -174,7 +176,7 @@ static int cb(struct nfq_q_handle *qh, struct nfgenmsg *nfmsg,
 	else if( isRetrans(tseq) ){
 		nextVal = acceptWindow + dropWindow;	
 		done=1;
-		// printf("[NFQ][CB] case 3: NF_ACCEPT\n");
+		// printf("\n[NFQ][CB] case 3: NF_ACCEPT\n");
 		return nfq_set_verdict(qh, id, NF_ACCEPT, 0, NULL);
 	}
 	// when `acceptWindow >= cap` && `not retrans`, get drop the packet,
@@ -188,7 +190,7 @@ static int cb(struct nfq_q_handle *qh, struct nfgenmsg *nfmsg,
 		dropped[dropWindow] = tseq;
 		dropWindow++;
 		buff[dropWindow]=tseq;
-		// printf("[NFQ][CB] case 4: NF_DROP\n");
+		// printf("\n[NFQ][CB] case 4: NF_DROP\n");
 		return nfq_set_verdict(qh, id, NF_DROP, 0, NULL);
 	}
 }
@@ -212,13 +214,16 @@ int main(int argc, char **argv)
 	struct nfq_q_handle *qh;
 	int fd;
 	int rv;
-	char buf[4096] __attribute__ ((aligned));
+	// char buf[4096] __attribute__ ((aligned));
 	int lastWindow;
 	int inputting = 0;
 
 	char outfile[30] = "../Data/";
 	strcat(outfile, argv[6]);
-	strcat(outfile, "/windows.csv");
+	// strcat(outfile, "/windows.csv");
+	strcat(outfile, "/windows");
+	strcat(outfile, argv[5]);
+	strcat(outfile, ".csv");
 	printf("[DEBUG][multi-probe] output file: %s\n", outfile);
 	FILE *ofile = fopen(outfile, "rw");
 
@@ -229,7 +234,7 @@ int main(int argc, char **argv)
 	{
 		indx++; 
 		lastWindow = atoi(line);
-		printf("[DEBUG] lastWindow: %d\n", lastWindow);
+		// printf("[DEBUG] lastWindow: %d\n", lastWindow);
 		if(inputting==0){
 			if(getWinSize(line)>DROPWINDOW){
 				emuDrop = lastAccept;
@@ -297,14 +302,16 @@ int main(int argc, char **argv)
 		//char get[] ="wget -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O /dev/null '";
 		//as mobile client
 		//char get[] ="wget -U 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0 Mobile/15D100 Safari/604.1' -O /dev/null '";
+		// char get[] ="wget -t 10 -T 45 -U 'Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36' -O indexPage --no-check-certificate ";
 		char get[] ="wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate ";
+		// char get[] ="wget -t 10 -T 45 -O indexPage --no-check-certificate ";
 		strcat(get, argv[1]);
 		// strcat(get, "\"");
 		printf("%s\n", get);
 		system(get);
-		printf("=========DONE WITH WGET!");
 		done = 1;
-		destroySession(h, qh);
+		// destroySession(h, qh);
+		printf("[WGET DONE]\n");
 		exit(0);
 	}
 	else{
@@ -312,9 +319,9 @@ int main(int argc, char **argv)
 
 		while (done == 0 && (rv = recv(fd, buf, sizeof(buf), 0)) && rv >= 0){
 			usleep(delay);
-			printf("[NFQ] nfq_handle_packet begin ...\n");
+			// printf("[NFQ] nfq_handle_packet begin ...\n");
 			nfq_handle_packet(h, buf, rv);
-			printf("[NFQ] nfq_handle_packet finished ...\n\n");
+			// printf("[NFQ] nfq_handle_packet finished ...\n\n");
 			if(counter>switchPoint) delay=nextDelay;
 			counter++;
 			status = kill(pid, 0);
@@ -323,12 +330,17 @@ int main(int argc, char **argv)
 				continue;
 			}
 			else{
-				printf("\n\nWGET CHILD PROCESS HAS ENDED.\n\n");
+				printf("[WGET END]\n");
 				done=1;
 				break;
 			}
 		}
 
+		printf("\n[rv]: %d\n", rv);
+		if (rv == -1) {
+			fprintf(stderr, "recv: %s (%d)\n", strerror(errno), errno);
+			printf("[buf size]: %d\n", sizeof(buf));
+		}
 		// // set some timeout params
 		// int timeout_seconds = 5;
 		// struct timeval timeout;
@@ -370,9 +382,14 @@ int main(int argc, char **argv)
 		// 	}
 		// }
 
-		printf("\n\n================================STATUS========: %d\n", status);
+		printf("\n\n========STATUS========: %d\n", status);
+		printf("========DONE========: %d\n", done);
+		if (done == 1) {
+			printf("[WGET TERM]\n"); // terminate 
+		}
 
 		destroySession(h, qh);
+		close(fd);
 
 		if(done==-1)
 			exit(0);
@@ -407,8 +424,11 @@ int main(int argc, char **argv)
 			strcat(cmd, "/windows");
 			strcat(cmd, argv[5]);
 			strcat(cmd, ".csv");
-			system(cmd);
+			if ((indx > 0) && (nextVal != 0)) {
+				system(cmd);
+			}
 			printf("[DEBUG][CMD] %s\n", cmd);
+			printf("[EXP FINISH]");
 	}	
 
 	return 0; 

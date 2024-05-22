@@ -1,6 +1,0 @@
---2024-05-19 06:20:16--  https://accounts.google.com/ServiceLogin?hl=en
-Resolving accounts.google.com (accounts.google.com)... 28.0.0.167
-Connecting to accounts.google.com (accounts.google.com)|28.0.0.167|:443... connected.
-ERROR: cannot verify accounts.google.com's certificate, issued by ‘CN=GTS CA 1C3,O=Google Trust Services LLC,C=US’:
-  Unable to locally verify the issuer's authority.
-To connect to accounts.google.com insecurely, use `--no-check-certificate'.

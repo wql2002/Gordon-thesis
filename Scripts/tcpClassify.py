@@ -6,20 +6,29 @@ import os
 plotting = False
 url_map = {}
 
-def classify(tcpFile, mode): #, filename, plotPath):
+def classify(tcpFile, mod): #, filename, plotPath):
     global plotting
     global url_map
     answer = {}
     warnings.filterwarnings("ignore")
     try:
-        if mode == 0:
-            tcpDatas = np.loadtxt(fname=tcpFile, delimiter=' ', usecols=(1,2))
+        tcpDatas = np.loadtxt(fname=tcpFile, delimiter=' ')
+        # print(tcpDatas[4, 1])
+        # print(f'[mod:{mod}]')
+        if int(mod) == 0:
+            # tcpDatas = np.loadtxt(fname=tcpFile, delimiter=' ', usecols=(1,2))
+            tcpWindows = tcpDatas[:,1]
+            # tcpDatas = tcpDatas[:,[2, 1]]
         else:
-            tcpDatas = np.loadtxt(fname=tcpFile, delimiter=' ', usecols=(0,2))
-        tcpDatas[:,[0,-1]] = tcpDatas[:,[-1, 0]]
-        # print(tcpDatas)
-        tcpRounds = tcpDatas[:,0]
-        tcpWindows = tcpDatas[:,-1]
+            print("1111")
+            # tcpDatas = np.loadtxt(fname=tcpFile, delimiter=' ', usecols=(0,2))
+            tcpWindows = tcpDatas[:,0]
+            # tcpDatas = tcpDatas[:,[2, 0]]
+        # print(tcpDatas[4, :])
+        # tcpDatas[:,[0,-1]] = tcpDatas[:,[-1, 0]]
+        tcpRounds = tcpDatas[:,2]
+        # tcpWindows = tcpDatas[:,-1]
+        # print(tcpWindows)
         tcpPackets = list(np.loadtxt(fname=tcpFile, delimiter=' ', usecols=(1)))
         """
 	if(plotting):
@@ -43,9 +52,10 @@ def classify(tcpFile, mode): #, filename, plotPath):
     tcpBetaSecond = 0
 
     for i in range(len(tcpDatas)-1):
-        if tcpWindows[i] > 80:
+        if tcpWindows[i] >= 80:
             tcpLossPoints.append(i)
             tcpBeta =  round(getBeta(tcpWindows[i], tcpWindows[i+1]),1)
+            # print(f"[i:{i}, tcpBeta:{tcpBeta}, {tcpWindows[i]}, {tcpWindows[i+1]}]")
             try:
                 tcpBetaSecond = round(getBeta(tcpWindows[i+1], tcpWindows[i+2]),1)
             except Exception as e:
