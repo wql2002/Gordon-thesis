@@ -1,0 +1,100 @@
+
+[DEBUG][multi-probe] output file: ../Data/alipay.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 14
+[DEBUG] lastWindow: 47
+[DEBUG] lastWindow: 113
+[DEBUG] lastWindow: 180
+[DEBUG] lastWindow: 280
+[DEBUG] lastWindow: 413
+[DEBUG] lastWindow: 594
+[DEBUG] lastWindow: 850
+[rv]: -1
+[buf size]: 16384
+========STATUS========: 0
+========DONE========: 0
+
+[SKIP]
+[EXP FINISH]
+
+
+[DEBUG][multi-probe] output file: ../Data/alipay.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 14
+[DEBUG] lastWindow: 47
+[DEBUG] lastWindow: 113
+[DEBUG] lastWindow: 180
+[DEBUG] lastWindow: 280
+[DEBUG] lastWindow: 413
+[DEBUG] lastWindow: 594
+[DEBUG] lastWindow: 850
+[rv]: -1
+[buf size]: 16384
+========STATUS========: 0
+========DONE========: 0
+
+[SKIP]
+[EXP FINISH]
+
+
+[DEBUG][multi-probe] output file: ../Data/alipay.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 14
+[DEBUG] lastWindow: 47
+[DEBUG] lastWindow: 113
+[DEBUG] lastWindow: 180
+[DEBUG] lastWindow: 280
+[DEBUG] lastWindow: 413
+[DEBUG] lastWindow: 594
+[DEBUG] lastWindow: 850
+[rv]: -1
+[buf size]: 16384
+========STATUS========: 0
+========DONE========: 0
+
+[SKIP]
+[EXP FINISH]
+
+
+[DEBUG][multi-probe] output file: ../Data/alipay.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 14
+[DEBUG] lastWindow: 47
+[DEBUG] lastWindow: 113
+[DEBUG] lastWindow: 180
+[DEBUG] lastWindow: 280
+[DEBUG] lastWindow: 413
+[DEBUG] lastWindow: 594
+[DEBUG] lastWindow: 850
+[rv]: -1
+[buf size]: 16384
+========STATUS========: 0
+========DONE========: 0
+
+[SKIP]
+[EXP FINISH]
+
+
+[DEBUG][multi-probe] output file: ../Data/alipay.com/windows.csv
+[DEBUG] lastWindow: 0
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate https://openhome.alipay.com/doc/sdkDownload.resource?sdkType=PHP
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/alipay.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 14
+[DEBUG] lastWindow: 47
+[DEBUG] lastWindow: 113
+[DEBUG] lastWindow: 180
+[DEBUG] lastWindow: 280
+[DEBUG] lastWindow: 413
+[DEBUG] lastWindow: 594
+[DEBUG] lastWindow: 850
+[rv]: -1
+[buf size]: 16384
+========STATUS========: 0
+========DONE========: 0
+
+[SKIP]
+[EXP FINISH]
+
+
