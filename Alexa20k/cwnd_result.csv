@@ -1,35 +1,35 @@
 google cubic_loss
 youtube.com unknown_nonLoss
-facebook.com 
+facebook.com [TODO]
 baidu.com bbr_nonLoss
 wikipedia.org Type_II_nonLoss
-tmall.com
-yahoo.com
-qq.com 
+tmall.com [TODO]
+yahoo.com [TODO]
+qq.com [TODO]
 taobao.com unknown_never_go_up_80
 sohu.com YEAH_loss
 twitter.com unknown_never_go_up_80
 google.co.in bbr_nonLoss
-amazon.com 
+amazon.com [TODO]
 instagram.com bbr_nonLoss
-vk.com
+vk.com [TODO]
 live.com reno_nonLoss
-login.tmall.com
-yandex.ru
-jd.com
-reddit.com
-360.cn
-weibo.com
-sina.com.cn
-google.co.jp
-blogspot.com
-linkedin.com
-pages.tmall.com
-netflix.com
-google.com.br
-google.com.hk
-google.co.uk
-pornhub.com
+login.tmall.com Type_III
+yandex.ru unknown_never_go_up_80
+jd.com YEAH_loss
+reddit.com unknown_never_go_up_80
+360.cn unknown_nonLoss
+weibo.com unknown_never_go_up_80
+sina.com.cn illinois_loss
+google.co.jp short_flow_loss
+blogspot.com bbr_nonLoss
+linkedin.com [TODO]
+pages.tmall.com unknown_never_go_up_80
+netflix.com bbr_nonLoss
+google.com.br bbr_nonLoss
+google.com.hk unknown_never_go_up_80
+google.co.uk bbr_nonLoss
+pornhub.com unknown_never_go_up_80
 yahoo.co.jp
 alipay.com
 office.com
