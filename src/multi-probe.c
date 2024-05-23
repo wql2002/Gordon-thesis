@@ -220,10 +220,10 @@ int main(int argc, char **argv)
 
 	char outfile[30] = "../Data/";
 	strcat(outfile, argv[6]);
-	// strcat(outfile, "/windows.csv");
-	strcat(outfile, "/windows");
-	strcat(outfile, argv[5]);
-	strcat(outfile, ".csv");
+	strcat(outfile, "/windows.csv");
+	// strcat(outfile, "/windows");
+	// strcat(outfile, argv[5]);
+	// strcat(outfile, ".csv");
 	printf("[DEBUG][multi-probe] output file: %s\n", outfile);
 	FILE *ofile = fopen(outfile, "rw");
 
@@ -234,7 +234,7 @@ int main(int argc, char **argv)
 	{
 		indx++; 
 		lastWindow = atoi(line);
-		// printf("[DEBUG] lastWindow: %d\n", lastWindow);
+		printf("[DEBUG] lastWindow: %d\n", lastWindow);
 		if(inputting==0){
 			if(getWinSize(line)>DROPWINDOW){
 				emuDrop = lastAccept;
@@ -303,11 +303,11 @@ int main(int argc, char **argv)
 		//as mobile client
 		//char get[] ="wget -U 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0 Mobile/15D100 Safari/604.1' -O /dev/null '";
 		// char get[] ="wget -t 10 -T 45 -U 'Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36' -O indexPage --no-check-certificate ";
-		char get[] ="wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate ";
+		char get[] ="wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate '";
 		// char get[] ="wget -t 10 -T 45 -O indexPage --no-check-certificate ";
 		strcat(get, argv[1]);
 		// strcat(get, "\"");
-		printf("%s\n", get);
+		printf("%s'\n", get);
 		system(get);
 		done = 1;
 		// destroySession(h, qh);
@@ -330,13 +330,13 @@ int main(int argc, char **argv)
 				continue;
 			}
 			else{
-				printf("[WGET END]\n");
+				// printf("[WGET END]\n");
 				done=1;
 				break;
 			}
 		}
 
-		printf("\n[rv]: %d\n", rv);
+		printf("[rv]: %d\n", rv);
 		if (rv == -1) {
 			fprintf(stderr, "recv: %s (%d)\n", strerror(errno), errno);
 			printf("[buf size]: %d\n", sizeof(buf));
@@ -382,10 +382,10 @@ int main(int argc, char **argv)
 		// 	}
 		// }
 
-		printf("\n\n========STATUS========: %d\n", status);
+		printf("========STATUS========: %d\n", status);
 		printf("========DONE========: %d\n", done);
 		if (done == 1) {
-			printf("[WGET TERM]\n"); // terminate 
+			// printf("[WGET TERM]\n"); // terminate 
 		}
 
 		destroySession(h, qh);
@@ -426,9 +426,12 @@ int main(int argc, char **argv)
 			strcat(cmd, ".csv");
 			if ((indx > 0) && (nextVal != 0)) {
 				system(cmd);
+				printf("[DEBUG][CMD] %s\n", cmd);
 			}
-			printf("[DEBUG][CMD] %s\n", cmd);
-			printf("[EXP FINISH]");
+			else {
+				printf("\n[SKIP]\n");
+			}
+			printf("[EXP FINISH]\n\n\n");
 	}	
 
 	return 0; 
