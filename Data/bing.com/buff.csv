@@ -1,0 +1,18 @@
+[DEBUG][multi-probe] output file: ../Data/bing.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 19
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "http://www.bing.com/saves?type=Images&FORM=IRFVRF"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/bing.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 19
+[rv]: 640
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

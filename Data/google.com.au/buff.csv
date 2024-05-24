@@ -1,0 +1,66 @@
+[DEBUG][multi-probe] output file: ../Data/google.com.au/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 10
+[DEBUG] lastWindow: 11
+[DEBUG] lastWindow: 12
+[DEBUG] lastWindow: 13
+[DEBUG] lastWindow: 14
+[DEBUG] lastWindow: 25
+[DEBUG] lastWindow: 34
+[DEBUG] lastWindow: 35
+[DEBUG] lastWindow: 36
+[DEBUG] lastWindow: 64
+[DEBUG] lastWindow: 119
+[DEBUG] lastWindow: 227
+[DEBUG] lastWindow: 347
+[DEBUG] lastWindow: 493
+[DEBUG] lastWindow: 640
+[DEBUG] lastWindow: 786
+[DEBUG] lastWindow: 886
+[DEBUG] lastWindow: 987
+[DEBUG] lastWindow: 1093
+[DEBUG] lastWindow: 1184
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "google.com.au"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/google.com.au/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 10
+[DEBUG] lastWindow: 11
+[DEBUG] lastWindow: 12
+[DEBUG] lastWindow: 13
+[DEBUG] lastWindow: 14
+[DEBUG] lastWindow: 25
+[DEBUG] lastWindow: 34
+[DEBUG] lastWindow: 35
+[DEBUG] lastWindow: 36
+[DEBUG] lastWindow: 64
+[DEBUG] lastWindow: 119
+[DEBUG] lastWindow: 227
+[DEBUG] lastWindow: 347
+[DEBUG] lastWindow: 493
+[DEBUG] lastWindow: 640
+[DEBUG] lastWindow: 786
+[DEBUG] lastWindow: 886
+[DEBUG] lastWindow: 987
+[DEBUG] lastWindow: 1093
+[DEBUG] lastWindow: 1184
+[rv]: 334
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

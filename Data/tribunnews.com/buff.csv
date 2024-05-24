@@ -1,0 +1,58 @@
+[DEBUG][multi-probe] output file: ../Data/tribunnews.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 10
+[DEBUG] lastWindow: 11
+[DEBUG] lastWindow: 12
+[DEBUG] lastWindow: 13
+[DEBUG] lastWindow: 36
+[DEBUG] lastWindow: 81
+[DEBUG] lastWindow: 158
+[DEBUG] lastWindow: 297
+[DEBUG] lastWindow: 434
+[DEBUG] lastWindow: 584
+[DEBUG] lastWindow: 758
+[DEBUG] lastWindow: 890
+[DEBUG] lastWindow: 996
+[DEBUG] lastWindow: 1104
+[DEBUG] lastWindow: 1214
+[DEBUG] lastWindow: 1252
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "http://www.tribunnews.com/fullsite"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/tribunnews.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 10
+[DEBUG] lastWindow: 11
+[DEBUG] lastWindow: 12
+[DEBUG] lastWindow: 13
+[DEBUG] lastWindow: 36
+[DEBUG] lastWindow: 81
+[DEBUG] lastWindow: 158
+[DEBUG] lastWindow: 297
+[DEBUG] lastWindow: 434
+[DEBUG] lastWindow: 584
+[DEBUG] lastWindow: 758
+[DEBUG] lastWindow: 890
+[DEBUG] lastWindow: 996
+[DEBUG] lastWindow: 1104
+[DEBUG] lastWindow: 1214
+[DEBUG] lastWindow: 1252
+[rv]: 116
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

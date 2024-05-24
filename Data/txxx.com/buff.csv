@@ -1,0 +1,26 @@
+[DEBUG][multi-probe] output file: ../Data/txxx.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 7
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 10
+[DEBUG] lastWindow: 11
+[DEBUG] lastWindow: 30
+[DEBUG] lastWindow: 33
+[DEBUG] lastWindow: 46
+[DEBUG] lastWindow: 69
+[DEBUG] lastWindow: 101
+[DEBUG] lastWindow: 172
+[DEBUG] lastWindow: 253
+[rv]: -1
+[buf size]: 16384
+========STATUS========: 0
+========DONE========: 0
+
+[SKIP]
+[EXP FINISH]
+
+

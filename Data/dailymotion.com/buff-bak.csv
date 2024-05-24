@@ -1,0 +1,36 @@
+[DEBUG][multi-probe] output file: ../Data/dailymotion.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 36
+[DEBUG] lastWindow: 37
+[DEBUG] lastWindow: 39
+[DEBUG] lastWindow: 40
+[DEBUG] lastWindow: 42
+[DEBUG] lastWindow: 52
+[DEBUG] lastWindow: 68
+[DEBUG] lastWindow: 101
+[DEBUG] lastWindow: 169
+[DEBUG] lastWindow: 301
+[DEBUG] lastWindow: 397
+[DEBUG] lastWindow: 492
+[DEBUG] lastWindow: 593
+[DEBUG] lastWindow: 695
+[DEBUG] lastWindow: 803
+[DEBUG] lastWindow: 914
+[DEBUG] lastWindow: 1030
+[DEBUG] lastWindow: 1148
+[DEBUG] lastWindow: 1268
+[rv]: 360
+========STATUS========: 0
+========DONE========: 1
+[DEBUG][CMD] echo 1274 6 28 >> ../Data/dailymotion.com/windows5.csv
+[EXP FINISH]
+
+

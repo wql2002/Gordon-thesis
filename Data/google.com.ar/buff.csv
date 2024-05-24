@@ -1,0 +1,46 @@
+[DEBUG][multi-probe] output file: ../Data/google.com.ar/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 165
+[DEBUG] lastWindow: 286
+[DEBUG] lastWindow: 436
+[DEBUG] lastWindow: 585
+[DEBUG] lastWindow: 735
+[DEBUG] lastWindow: 837
+[DEBUG] lastWindow: 940
+[DEBUG] lastWindow: 1042
+[DEBUG] lastWindow: 1144
+[DEBUG] lastWindow: 1248
+[DEBUG] lastWindow: 1354
+[DEBUG] lastWindow: 1456
+[DEBUG] lastWindow: 1559
+[DEBUG] lastWindow: 1616
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://gsuite.google.com.ar/intl/en_sg/security/"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/google.com.ar/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 165
+[DEBUG] lastWindow: 286
+[DEBUG] lastWindow: 436
+[DEBUG] lastWindow: 585
+[DEBUG] lastWindow: 735
+[DEBUG] lastWindow: 837
+[DEBUG] lastWindow: 940
+[DEBUG] lastWindow: 1042
+[DEBUG] lastWindow: 1144
+[DEBUG] lastWindow: 1248
+[DEBUG] lastWindow: 1354
+[DEBUG] lastWindow: 1456
+[DEBUG] lastWindow: 1559
+[DEBUG] lastWindow: 1616
+[rv]: 208
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

@@ -1,0 +1,14 @@
+[DEBUG][multi-probe] output file: ../Data/detail.tmall.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 36
+[DEBUG] lastWindow: 160
+[DEBUG] lastWindow: 300
+[DEBUG] lastWindow: 474
+[DEBUG] lastWindow: 762
+[rv]: 360
+========STATUS========: 0
+========DONE========: 1
+[DEBUG][CMD] echo 1052 290 6 >> ../Data/detail.tmall.com/windows5.csv
+[EXP FINISH]
+
+

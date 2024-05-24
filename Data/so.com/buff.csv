@@ -1,0 +1,60 @@
+[DEBUG][multi-probe] output file: ../Data/so.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 15
+[DEBUG] lastWindow: 29
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 47
+[DEBUG] lastWindow: 70
+[DEBUG] lastWindow: 105
+[DEBUG] lastWindow: 132
+[DEBUG] lastWindow: 191
+[DEBUG] lastWindow: 280
+[DEBUG] lastWindow: 341
+[DEBUG] lastWindow: 365
+[DEBUG] lastWindow: 464
+[DEBUG] lastWindow: 563
+[DEBUG] lastWindow: 622
+[DEBUG] lastWindow: 727
+[DEBUG] lastWindow: 757
+[DEBUG] lastWindow: 775
+[DEBUG] lastWindow: 777
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://www.so.com/?src=so.com"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/so.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 15
+[DEBUG] lastWindow: 29
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 47
+[DEBUG] lastWindow: 70
+[DEBUG] lastWindow: 105
+[DEBUG] lastWindow: 132
+[DEBUG] lastWindow: 191
+[DEBUG] lastWindow: 280
+[DEBUG] lastWindow: 341
+[DEBUG] lastWindow: 365
+[DEBUG] lastWindow: 464
+[DEBUG] lastWindow: 563
+[DEBUG] lastWindow: 622
+[DEBUG] lastWindow: 727
+[DEBUG] lastWindow: 757
+[DEBUG] lastWindow: 775
+[DEBUG] lastWindow: 777
+[rv]: 184
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

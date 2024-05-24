@@ -1,0 +1,54 @@
+[DEBUG][multi-probe] output file: ../Data/livejasmin.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 78
+[DEBUG] lastWindow: 156
+[DEBUG] lastWindow: 300
+[DEBUG] lastWindow: 394
+[DEBUG] lastWindow: 485
+[DEBUG] lastWindow: 639
+[DEBUG] lastWindow: 770
+[DEBUG] lastWindow: 875
+[DEBUG] lastWindow: 990
+[DEBUG] lastWindow: 1142
+[DEBUG] lastWindow: 1224
+[DEBUG] lastWindow: 1294
+[DEBUG] lastWindow: 1353
+[DEBUG] lastWindow: 1396
+[DEBUG] lastWindow: 1479
+[DEBUG] lastWindow: 1568
+[DEBUG] lastWindow: 1617
+[DEBUG] lastWindow: 1661
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://www.livejasmin.com/en/girls/"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/livejasmin.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 78
+[DEBUG] lastWindow: 156
+[DEBUG] lastWindow: 300
+[DEBUG] lastWindow: 394
+[DEBUG] lastWindow: 485
+[DEBUG] lastWindow: 639
+[DEBUG] lastWindow: 770
+[DEBUG] lastWindow: 875
+[DEBUG] lastWindow: 990
+[DEBUG] lastWindow: 1142
+[DEBUG] lastWindow: 1224
+[DEBUG] lastWindow: 1294
+[DEBUG] lastWindow: 1353
+[DEBUG] lastWindow: 1396
+[DEBUG] lastWindow: 1479
+[DEBUG] lastWindow: 1568
+[DEBUG] lastWindow: 1617
+[DEBUG] lastWindow: 1661
+[rv]: 104
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

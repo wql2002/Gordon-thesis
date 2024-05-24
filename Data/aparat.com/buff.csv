@@ -1,0 +1,28 @@
+[DEBUG][multi-probe] output file: ../Data/aparat.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 63
+[DEBUG] lastWindow: 115
+[DEBUG] lastWindow: 155
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "aparat.com"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/aparat.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 63
+[DEBUG] lastWindow: 115
+[DEBUG] lastWindow: 155
+[rv]: 140
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

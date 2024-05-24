@@ -1,0 +1,21 @@
+[DEBUG][multi-probe] output file: ../Data/dropbox.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 13
+[DEBUG] lastWindow: 20
+[DEBUG] lastWindow: 60
+[DEBUG] lastWindow: 148
+[DEBUG] lastWindow: 247
+[DEBUG] lastWindow: 376
+[DEBUG] lastWindow: 642
+[rv]: -1
+[buf size]: 16384
+========STATUS========: 0
+========DONE========: 0
+
+[SKIP]
+[EXP FINISH]
+
+

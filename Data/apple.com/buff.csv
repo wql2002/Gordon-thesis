@@ -1,0 +1,19 @@
+[DEBUG][multi-probe] output file: ../Data/apple.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 221
+[DEBUG] lastWindow: 369
+[DEBUG] lastWindow: 563
+[DEBUG] lastWindow: 734
+[DEBUG] lastWindow: 896
+[DEBUG] lastWindow: 1010
+[DEBUG] lastWindow: 1122
+[DEBUG] lastWindow: 1238
+[DEBUG] lastWindow: 1346
+[DEBUG] lastWindow: 1456
+[DEBUG] lastWindow: 1566
+[DEBUG] lastWindow: 1676
+[DEBUG] lastWindow: 1784
+[DEBUG] lastWindow: 1894
+[DEBUG] lastWindow: 1939
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://www.apple.com/shop/buy-iphone/iphone-xr"
+[WGET DONE]

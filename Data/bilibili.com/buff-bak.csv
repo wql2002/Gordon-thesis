@@ -1,0 +1,31 @@
+[DEBUG][multi-probe] output file: ../Data/bilibili.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 16
+[DEBUG] lastWindow: 24
+[DEBUG] lastWindow: 26
+[DEBUG] lastWindow: 27
+[DEBUG] lastWindow: 38
+[DEBUG] lastWindow: 60
+[DEBUG] lastWindow: 103
+[DEBUG] lastWindow: 183
+[DEBUG] lastWindow: 285
+[DEBUG] lastWindow: 383
+[DEBUG] lastWindow: 481
+[DEBUG] lastWindow: 580
+[DEBUG] lastWindow: 682
+[DEBUG] lastWindow: 787
+[DEBUG] lastWindow: 889
+[DEBUG] lastWindow: 963
+[rv]: 360
+========STATUS========: 0
+========DONE========: 1
+[DEBUG][CMD] echo 980 17 23 >> ../Data/bilibili.com/windows5.csv
+[EXP FINISH]
+
+

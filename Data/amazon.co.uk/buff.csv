@@ -1,0 +1,48 @@
+[DEBUG][multi-probe] output file: ../Data/amazon.co.uk/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 10
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 41
+[DEBUG] lastWindow: 52
+[DEBUG] lastWindow: 60
+[DEBUG] lastWindow: 66
+[DEBUG] lastWindow: 69
+[DEBUG] lastWindow: 70
+[DEBUG] lastWindow: 71
+[DEBUG] lastWindow: 90
+[DEBUG] lastWindow: 98
+[DEBUG] lastWindow: 130
+[DEBUG] lastWindow: 134
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "amazon.co.uk"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/amazon.co.uk/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 10
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 41
+[DEBUG] lastWindow: 52
+[DEBUG] lastWindow: 60
+[DEBUG] lastWindow: 66
+[DEBUG] lastWindow: 69
+[DEBUG] lastWindow: 70
+[DEBUG] lastWindow: 71
+[DEBUG] lastWindow: 90
+[DEBUG] lastWindow: 98
+[DEBUG] lastWindow: 130
+[DEBUG] lastWindow: 134
+[rv]: 116
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

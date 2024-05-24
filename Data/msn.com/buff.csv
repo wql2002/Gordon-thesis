@@ -1,0 +1,48 @@
+[DEBUG][multi-probe] output file: ../Data/msn.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 13
+[DEBUG] lastWindow: 14
+[DEBUG] lastWindow: 15
+[DEBUG] lastWindow: 16
+[DEBUG] lastWindow: 21
+[DEBUG] lastWindow: 22
+[DEBUG] lastWindow: 23
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 35
+[DEBUG] lastWindow: 43
+[DEBUG] lastWindow: 75
+[DEBUG] lastWindow: 103
+[DEBUG] lastWindow: 151
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "msn.com"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/msn.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 13
+[DEBUG] lastWindow: 14
+[DEBUG] lastWindow: 15
+[DEBUG] lastWindow: 16
+[DEBUG] lastWindow: 21
+[DEBUG] lastWindow: 22
+[DEBUG] lastWindow: 23
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 35
+[DEBUG] lastWindow: 43
+[DEBUG] lastWindow: 75
+[DEBUG] lastWindow: 103
+[DEBUG] lastWindow: 151
+[rv]: 104
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

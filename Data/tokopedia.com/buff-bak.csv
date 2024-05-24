@@ -1,0 +1,41 @@
+[DEBUG][multi-probe] output file: ../Data/tokopedia.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 30
+[DEBUG] lastWindow: 42
+[DEBUG] lastWindow: 51
+[DEBUG] lastWindow: 56
+[DEBUG] lastWindow: 65
+[DEBUG] lastWindow: 75
+[DEBUG] lastWindow: 83
+[DEBUG] lastWindow: 86
+[DEBUG] lastWindow: 97
+[DEBUG] lastWindow: 107
+[DEBUG] lastWindow: 118
+[DEBUG] lastWindow: 125
+[DEBUG] lastWindow: 138
+[DEBUG] lastWindow: 147
+[DEBUG] lastWindow: 157
+[DEBUG] lastWindow: 265
+[DEBUG] lastWindow: 289
+[DEBUG] lastWindow: 314
+[rv]: 360
+========STATUS========: 0
+========DONE========: 1
+[DEBUG][CMD] echo 361 47 26 >> ../Data/tokopedia.com/windows5.csv
+[EXP FINISH]
+
+
+ 51
+[DEBUG] lastWindow: 56
+[DEBUG] lastWindow: 65
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://www.tokopedia.com/hot/peralatan-gambar-sekolah"
+[WGET DONE]
+com/hot/peralatan-gambar-sekolah"
+[WGET DONE]

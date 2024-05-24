@@ -1,0 +1,40 @@
+[DEBUG][multi-probe] output file: ../Data/google.com.ua/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 10
+[DEBUG] lastWindow: 11
+[DEBUG] lastWindow: 12
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 19
+[DEBUG] lastWindow: 20
+[DEBUG] lastWindow: 21
+[DEBUG] lastWindow: 22
+[DEBUG] lastWindow: 23
+[DEBUG] lastWindow: 24
+[DEBUG] lastWindow: 25
+[DEBUG] lastWindow: 35
+[DEBUG] lastWindow: 44
+[DEBUG] lastWindow: 45
+[DEBUG] lastWindow: 46
+[DEBUG] lastWindow: 76
+[DEBUG] lastWindow: 136
+[DEBUG] lastWindow: 255
+[DEBUG] lastWindow: 380
+[DEBUG] lastWindow: 528
+[DEBUG] lastWindow: 678
+[DEBUG] lastWindow: 827
+[DEBUG] lastWindow: 930
+[DEBUG] lastWindow: 1033
+[DEBUG] lastWindow: 1139
+[rv]: 360
+========STATUS========: 0
+========DONE========: 1
+[DEBUG][CMD] echo 1193 54 32 >> ../Data/google.com.ua/windows5.csv
+[EXP FINISH]
+
+

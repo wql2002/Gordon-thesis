@@ -1,0 +1,28 @@
+[DEBUG][multi-probe] output file: ../Data/stackexchange.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 25
+[DEBUG] lastWindow: 27
+[DEBUG] lastWindow: 71
+[DEBUG] lastWindow: 145
+[DEBUG] lastWindow: 287
+[DEBUG] lastWindow: 430
+[DEBUG] lastWindow: 584
+[DEBUG] lastWindow: 735
+[DEBUG] lastWindow: 865
+[DEBUG] lastWindow: 973
+[DEBUG] lastWindow: 1081
+[DEBUG] lastWindow: 1189
+[DEBUG] lastWindow: 1303
+[rv]: 360
+========STATUS========: 0
+========DONE========: 1
+[DEBUG][CMD] echo 1409 106 20 >> ../Data/stackexchange.com/windows5.csv
+[EXP FINISH]
+
+

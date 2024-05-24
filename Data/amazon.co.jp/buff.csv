@@ -1,0 +1,36 @@
+[DEBUG][multi-probe] output file: ../Data/amazon.co.jp/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 28
+[DEBUG] lastWindow: 30
+[DEBUG] lastWindow: 42
+[DEBUG] lastWindow: 67
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://www.amazon.co.jp/microSD%E3%82%AB%E3%83%BC%E3%83%89128GB-Nintendo-%E6%AD%A3%E8%A6%8F%E4%BB%A3%E7%90%86%E5%BA%97%E4%BF%9D%E8%A8%BC%E5%93%81-MB-MC128GA-ECO/dp/B06XSTCW3G?pd_rd_wg=kxbHh&pd_rd_r=856f06cc-5d76-48ab-a7e3-7feb8fdf870b&pd_rd_w=vtpDK&ref_=pd_gw_ri&pf_rd_r=V014QE4SBPE3BHBECCTM&pf_rd_p=9a523c2b-6097-57f9-9032-eb18e40380b5"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/amazon.co.jp/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 28
+[DEBUG] lastWindow: 30
+[DEBUG] lastWindow: 42
+[DEBUG] lastWindow: 67
+[rv]: 116
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

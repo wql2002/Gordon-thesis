@@ -1,0 +1,40 @@
+[DEBUG][multi-probe] output file: ../Data/microsoft.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 53
+[DEBUG] lastWindow: 82
+[DEBUG] lastWindow: 195
+[DEBUG] lastWindow: 266
+[DEBUG] lastWindow: 308
+[DEBUG] lastWindow: 342
+[DEBUG] lastWindow: 382
+[DEBUG] lastWindow: 419
+[DEBUG] lastWindow: 454
+[DEBUG] lastWindow: 492
+[DEBUG] lastWindow: 528
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://www.microsoft.com/en-sg/p/surface-book-2/8mcpzjjcc98c/93x9"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/microsoft.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 53
+[DEBUG] lastWindow: 82
+[DEBUG] lastWindow: 195
+[DEBUG] lastWindow: 266
+[DEBUG] lastWindow: 308
+[DEBUG] lastWindow: 342
+[DEBUG] lastWindow: 382
+[DEBUG] lastWindow: 419
+[DEBUG] lastWindow: 454
+[DEBUG] lastWindow: 492
+[DEBUG] lastWindow: 528
+[rv]: 360
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

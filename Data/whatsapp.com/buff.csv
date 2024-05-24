@@ -1,0 +1,32 @@
+[DEBUG][multi-probe] output file: ../Data/whatsapp.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 144
+[DEBUG] lastWindow: 283
+[DEBUG] lastWindow: 432
+[DEBUG] lastWindow: 580
+[DEBUG] lastWindow: 734
+[DEBUG] lastWindow: 888
+[DEBUG] lastWindow: 998
+[DEBUG] lastWindow: 1020
+[DEBUG] lastWindow: 1022
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://www.whatsapp.com/?lang=fr"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/whatsapp.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 144
+[DEBUG] lastWindow: 283
+[DEBUG] lastWindow: 432
+[DEBUG] lastWindow: 580
+[DEBUG] lastWindow: 734
+[DEBUG] lastWindow: 888
+[DEBUG] lastWindow: 998
+[DEBUG] lastWindow: 1020
+[DEBUG] lastWindow: 1022
+[rv]: 116
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

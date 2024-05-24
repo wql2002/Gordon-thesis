@@ -30,111 +30,111 @@ google.com.br bbr_nonLoss
 google.com.hk unknown_never_go_up_80
 google.co.uk bbr_nonLoss
 pornhub.com unknown_never_go_up_80
-yahoo.co.jp
-alipay.com
-office.com
-microsoftonline.com
-mail.ru
-google.ru
-google.fr
-google.de
-ebay.com
-microsoft.com
-google.ca
-csdn.net
-t.co
-twitch.tv
-tribunnews.com
-msn.com
-whatsapp.com
-livejasmin.com
-naver.com
-bing.com
-xvideos.com
-aliexpress.com
-amazon.co.jp
-wordpress.com
-google.it
-paypal.com
-google.com.mx
-imdb.com
-google.es
-stackoverflow.com
-xhamster.com
-apple.com
-google.com.tr
-github.com
-google.com.tw
-tumblr.com
-imgur.com
-espn.com
-google.co.kr
-googleusercontent.com
-wikia.com
-xinhuanet.com
-thestartmagazine.com
-pinterest.com
-dropbox.com
-bilibili.com
-tianya.cn
-adobe.com
-xnxx.com
-amazon.in
-fbcdn.net
-google.com.au
-amazon.de
-detail.tmall.com
-google.co.id
-amazon.co.uk
-cobalten.com
-hao123.com
-quora.com
-pixnet.net
-amazonaws.com
-google.co.th
-panda.tv
-bbc.com
-soso.com
-google.com.ar
-google.pl
-booking.com
-cnn.com
-onlinesbi.com
-otvfoco.com.br
-detik.com
-babytree.com
-bongacams.com
-google.com.sa
-chase.com
-ask.com
-bbc.co.uk
-google.com.pk
-google.com.eg
-txxx.com
-force.com
-aparat.com
-tokopedia.com
-soundcloud.com
-nytimes.com
-popads.net
-stackexchange.com
-zhanqi.tv
-rakuten.co.jp
-craigslist.org
-spotify.com
-so.com
-bukalapak.com
-nih.gov
-china.com.cn
-porn555.com
-google.com.ua
-mama.cn
-instructure.com
-avito.ru
-dailymotion.com
-indeed.com
-vimeo.com
-nicovideo.jp
+yahoo.co.jp unknown_nonLoss
+alipay.com unknown_nonLoss
+office.com [TODO]
+microsoftonline.com [TODO]
+mail.ru short_flow_loss
+google.ru bbr_nonLoss
+google.fr bbr_nonLoss
+google.de bbr_nonLoss
+ebay.com short_flow_data_low_after_backoff
+microsoft.com bbr_loss     
+google.ca bbr_nonLoss     
+csdn.net unknown_never_go_up_80     
+t.co bbr_loss     
+twitch.tv unknown_never_go_up_80     
+tribunnews.com bbr_nonLoss     
+msn.com unknown_never_go_up_80     
+whatsapp.com unknown_nonLoss     
+livejasmin.com unknown_loss     
+naver.com cubic_loss     
+bing.com unknown_never_go_up_80     
+xvideos.com unknown_never_go_up_80     
+aliexpress.com unknown_never_go_up_80     
+amazon.co.jp unknown_never_go_up_80
+wordpress.com [TODO]
+google.it bbr_nonLoss
+paypal.com [TODO]
+google.com.mx bbr_nonLoss
+imdb.com short_flow_data_low_after_backoff
+google.es bbr_nonLoss
+stackoverflow.com unknown_nonLoss
+xhamster.com short_flow_data_low_after_backoff
+apple.com bic_loss
+google.com.tr unknown_never_go_up_80
+github.com [TODO]
+google.com.tw bbr_nonLoss
+tumblr.com [TODO]
+imgur.com bbr_nonLoss
+espn.com unknown_nonLoss
+google.co.kr bbr_nonLoss
+googleusercontent.com unknown_never_go_up_80
+wikia.com short_flow_loss
+xinhuanet.com [FORBID]
+thestartmagazine.com unknown_never_go_up_80
+pinterest.com bbr_loss
+dropbox.com unknown_nonLoss
+bilibili.com bbr_nonLoss
+tianya.cn [FORBID]
+adobe.com short_flow_loss
+xnxx.com illinois_loss
+amazon.in bic_loss
+fbcdn.net vegas_loss
+google.com.au bbr_nonLoss
+amazon.de unknown_never_go_up_80
+detail.tmall.com unknown_nonLoss
+google.co.id bbr_nonLoss
+amazon.co.uk unknown_never_go_up_80
+cobalten.com unknown_never_go_up_80
+hao123.com unknown_never_go_up_80
+quora.com unknown_never_go_up_80
+pixnet.net short_flow_data_low_after_backoff
+amazonaws.com Type_II_nonLoss
+google.co.th bbr_nonLoss
+panda.tv [FAIL]
+bbc.com short_flow_loss
+soso.com [SHORT]
+google.com.ar bic_loss
+google.pl bbr_nonLoss
+booking.com [FAIL]
+cnn.com unknown_nonLoss
+onlinesbi.com unknown_never_go_up_80
+otvfoco.com.br short_flow_data_low_after_backoff
+detik.com short_flow_loss
+babytree.com unknown_never_go_up_80
+bongacams.com Type_II_nonLoss
+google.com.sa bbr_nonLoss
+chase.com [FAIL]
+ask.com [FAIL]
+bbc.co.uk unknown_nonLoss
+google.com.pk bbr_nonLoss
+google.com.eg bbr_nonLoss
+txxx.com unknown_never_go_up_80
+force.com Type_III
+aparat.com unknown_never_go_up_80
+tokopedia.com unknown_loss
+soundcloud.com unknown_never_go_up_80
+nytimes.com cubic_loss
+popads.net unknown_never_go_up_80
+stackexchange.com bbr_nonLoss
+zhanqi.tv unknown_nonLoss
+rakuten.co.jp unknown_never_go_up_80
+craigslist.org [FAIL]
+spotify.com unknown_never_go_up_80
+so.com illinois_loss
+bukalapak.com cubic_loss
+nih.gov [FAIL]
+china.com.cn unknown_never_go_up_80
+porn555.com unknown_never_go_up_80
+google.com.ua bbr_nonLoss
+mama.cn unknown_nonLoss
+instructure.com unknown_nonLoss
+avito.ru unknown_never_go_up_80
+dailymotion.com cubic_loss
+indeed.com [FORBID]
+vimeo.com unknown_never_go_up_80
+nicovideo.jp [FAIL]
 caijing.com.cn
 google.co.za
 google.com.vn
@@ -146,14 +146,14 @@ daum.net
 roblox.com
 ok.ru
 globo.com
-chaturbate.com
-softonic.com
+chaturbate.com [FORBID]
+softonic.com [FAIL]
 salesforce.com
 slideshare.net
 ettoday.net
 liputan6.com
 ebay.co.uk
-flipkart.com
+flipkart.com [FAIL]
 google.co.ao
 w3schools.com
 uol.com.br
@@ -170,10 +170,10 @@ mediafire.com
 huanqiu.com
 cnet.com
 dnckawxatc.com
-etsy.com
+etsy.com [FORBID]
 wetransfer.com
 google.com.co
-yy.com
+yy.com [FORBID]
 scribd.com
 wikihow.com
 vice.com
@@ -187,7 +187,7 @@ bankofamerica.com
 deviantart.com
 exosrv.com
 rednet.cn
-quizlet.com
+quizlet.com [FORBID]
 google.gr
 google.cn
 wellsfargo.com

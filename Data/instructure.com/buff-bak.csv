@@ -1,0 +1,35 @@
+[DEBUG][multi-probe] output file: ../Data/instructure.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 7
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 32
+[DEBUG] lastWindow: 68
+[DEBUG] lastWindow: 136
+[DEBUG] lastWindow: 273
+[DEBUG] lastWindow: 407
+[DEBUG] lastWindow: 560
+[DEBUG] lastWindow: 714
+[DEBUG] lastWindow: 869
+[DEBUG] lastWindow: 1019
+[DEBUG] lastWindow: 1175
+[DEBUG] lastWindow: 1326
+[DEBUG] lastWindow: 1477
+[DEBUG] lastWindow: 1629
+[DEBUG] lastWindow: 1791
+[DEBUG] lastWindow: 1952
+[DEBUG] lastWindow: 2126
+[DEBUG] lastWindow: 2308
+[DEBUG] lastWindow: 2497
+[rv]: 360
+========STATUS========: 0
+========DONE========: 1
+[DEBUG][CMD] echo 2690 193 27 >> ../Data/instructure.com/windows5.csv
+[EXP FINISH]
+
+

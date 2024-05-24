@@ -1,0 +1,12 @@
+[DEBUG][multi-probe] output file: ../Data/booking.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 175
+[DEBUG] lastWindow: 282
+[rv]: -1
+[buf size]: 16384
+========STATUS========: 0
+========DONE========: 0
+[DEBUG][CMD] echo 329 47 3 >> ../Data/booking.com/windows5.csv
+[EXP FINISH]
+
+

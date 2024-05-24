@@ -1,0 +1,19 @@
+[DEBUG][multi-probe] output file: ../Data/bongacams.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 57
+[DEBUG] lastWindow: 69
+[DEBUG] lastWindow: 86
+[DEBUG] lastWindow: 183
+[DEBUG] lastWindow: 322
+[rv]: -1
+[buf size]: 16384
+========STATUS========: 0
+========DONE========: 0
+[DEBUG][CMD] echo 357 35 10 >> ../Data/bongacams.com/windows5.csv
+[EXP FINISH]
+
+

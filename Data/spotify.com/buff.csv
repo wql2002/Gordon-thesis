@@ -1,0 +1,44 @@
+[DEBUG][multi-probe] output file: ../Data/spotify.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 19
+[DEBUG] lastWindow: 21
+[DEBUG] lastWindow: 22
+[DEBUG] lastWindow: 23
+[DEBUG] lastWindow: 28
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 61
+[DEBUG] lastWindow: 119
+[DEBUG] lastWindow: 164
+[DEBUG] lastWindow: 167
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://open.spotify.com/user/deutschegrammophon/playlist/2B11k6zJ2vIJTjOiqz3Y35"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/spotify.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 19
+[DEBUG] lastWindow: 21
+[DEBUG] lastWindow: 22
+[DEBUG] lastWindow: 23
+[DEBUG] lastWindow: 28
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 61
+[DEBUG] lastWindow: 119
+[DEBUG] lastWindow: 164
+[DEBUG] lastWindow: 167
+[rv]: 176
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

@@ -1,71 +1,15 @@
-0 0
 [DEBUG][multi-probe] output file: ../Data/yahoo.co.jp/windows.csv
 [DEBUG] lastWindow: 0
-wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate https://auctions.yahoo.co.jp/category/list/%E3%83%88%E3%83%A8%E3%82%BF-%E4%B8%AD%E5%8F%A4%E8%BB%8A-%E6%96%B0%E8%BB%8A-%E8%87%AA%E5%8B%95%E8%BB%8A-%E3%82%AA%E3%83%BC%E3%83%88%E3%83%90%E3%82%A4/2084007642/?p=%E3%83%88%E3%83%A8%E3%82%BF&auccat=2084007642&exflg=1&exsid=gnturuhasi88%2Ckkk123098457%2Cswitch3928%2Cgensen_fujicarsjapan&b=1&n=50&s1=bidorbuy&o1=a&isdd=0
-[WGET DONE]
-[DEBUG][multi-probe] output file: ../Data/yahoo.co.jp/windows.csv
-[DEBUG] lastWindow: 0
-[rv]: 124
-========STATUS========: -1
+[DEBUG] lastWindow: 35
+[DEBUG] lastWindow: 111
+[DEBUG] lastWindow: 178
+[DEBUG] lastWindow: 382
+[DEBUG] lastWindow: 576
+[DEBUG] lastWindow: 784
+[rv]: 116
+========STATUS========: 0
 ========DONE========: 1
-
-[SKIP]
-[EXP FINISH]
-
-
-[DEBUG][multi-probe] output file: ../Data/yahoo.co.jp/windows.csv
-[DEBUG] lastWindow: 0
-wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate https://auctions.yahoo.co.jp/category/list/%E3%83%88%E3%83%A8%E3%82%BF-%E4%B8%AD%E5%8F%A4%E8%BB%8A-%E6%96%B0%E8%BB%8A-%E8%87%AA%E5%8B%95%E8%BB%8A-%E3%82%AA%E3%83%BC%E3%83%88%E3%83%90%E3%82%A4/2084007642/?p=%E3%83%88%E3%83%A8%E3%82%BF&auccat=2084007642&exflg=1&exsid=gnturuhasi88%2Ckkk123098457%2Cswitch3928%2Cgensen_fujicarsjapan&b=1&n=50&s1=bidorbuy&o1=a&isdd=0
-[WGET DONE]
-[DEBUG][multi-probe] output file: ../Data/yahoo.co.jp/windows.csv
-[DEBUG] lastWindow: 0
-[rv]: 124
-========STATUS========: -1
-========DONE========: 1
-
-[SKIP]
-[EXP FINISH]
-
-
-[DEBUG][multi-probe] output file: ../Data/yahoo.co.jp/windows.csv
-[DEBUG] lastWindow: 0
-wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate https://auctions.yahoo.co.jp/category/list/%E3%83%88%E3%83%A8%E3%82%BF-%E4%B8%AD%E5%8F%A4%E8%BB%8A-%E6%96%B0%E8%BB%8A-%E8%87%AA%E5%8B%95%E8%BB%8A-%E3%82%AA%E3%83%BC%E3%83%88%E3%83%90%E3%82%A4/2084007642/?p=%E3%83%88%E3%83%A8%E3%82%BF&auccat=2084007642&exflg=1&exsid=gnturuhasi88%2Ckkk123098457%2Cswitch3928%2Cgensen_fujicarsjapan&b=1&n=50&s1=bidorbuy&o1=a&isdd=0
-[WGET DONE]
-[DEBUG][multi-probe] output file: ../Data/yahoo.co.jp/windows.csv
-[DEBUG] lastWindow: 0
-[rv]: 124
-========STATUS========: -1
-========DONE========: 1
-
-[SKIP]
-[EXP FINISH]
-
-
-[DEBUG][multi-probe] output file: ../Data/yahoo.co.jp/windows.csv
-[DEBUG] lastWindow: 0
-wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate https://auctions.yahoo.co.jp/category/list/%E3%83%88%E3%83%A8%E3%82%BF-%E4%B8%AD%E5%8F%A4%E8%BB%8A-%E6%96%B0%E8%BB%8A-%E8%87%AA%E5%8B%95%E8%BB%8A-%E3%82%AA%E3%83%BC%E3%83%88%E3%83%90%E3%82%A4/2084007642/?p=%E3%83%88%E3%83%A8%E3%82%BF&auccat=2084007642&exflg=1&exsid=gnturuhasi88%2Ckkk123098457%2Cswitch3928%2Cgensen_fujicarsjapan&b=1&n=50&s1=bidorbuy&o1=a&isdd=0
-[WGET DONE]
-[DEBUG][multi-probe] output file: ../Data/yahoo.co.jp/windows.csv
-[DEBUG] lastWindow: 0
-[rv]: 124
-========STATUS========: -1
-========DONE========: 1
-
-[SKIP]
-[EXP FINISH]
-
-
-[DEBUG][multi-probe] output file: ../Data/yahoo.co.jp/windows.csv
-[DEBUG] lastWindow: 0
-wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate https://auctions.yahoo.co.jp/category/list/%E3%83%88%E3%83%A8%E3%82%BF-%E4%B8%AD%E5%8F%A4%E8%BB%8A-%E6%96%B0%E8%BB%8A-%E8%87%AA%E5%8B%95%E8%BB%8A-%E3%82%AA%E3%83%BC%E3%83%88%E3%83%90%E3%82%A4/2084007642/?p=%E3%83%88%E3%83%A8%E3%82%BF&auccat=2084007642&exflg=1&exsid=gnturuhasi88%2Ckkk123098457%2Cswitch3928%2Cgensen_fujicarsjapan&b=1&n=50&s1=bidorbuy&o1=a&isdd=0
-[WGET DONE]
-[DEBUG][multi-probe] output file: ../Data/yahoo.co.jp/windows.csv
-[DEBUG] lastWindow: 0
-[rv]: 124
-========STATUS========: -1
-========DONE========: 1
-
-[SKIP]
+[DEBUG][CMD] echo 991 207 7 >> ../Data/yahoo.co.jp/windows5.csv
 [EXP FINISH]
 
 

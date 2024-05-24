@@ -1,0 +1,30 @@
+[DEBUG][multi-probe] output file: ../Data/fbcdn.net/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 81
+[DEBUG] lastWindow: 228
+[DEBUG] lastWindow: 263
+[DEBUG] lastWindow: 298
+[DEBUG] lastWindow: 334
+[DEBUG] lastWindow: 354
+[DEBUG] lastWindow: 357
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "fbcdn.net"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/fbcdn.net/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 81
+[DEBUG] lastWindow: 228
+[DEBUG] lastWindow: 263
+[DEBUG] lastWindow: 298
+[DEBUG] lastWindow: 334
+[DEBUG] lastWindow: 354
+[DEBUG] lastWindow: 357
+[rv]: 251
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

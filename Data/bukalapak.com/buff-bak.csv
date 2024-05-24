@@ -1,0 +1,28 @@
+[DEBUG][multi-probe] output file: ../Data/bukalapak.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 10
+[DEBUG] lastWindow: 11
+[DEBUG] lastWindow: 21
+[DEBUG] lastWindow: 39
+[DEBUG] lastWindow: 44
+[DEBUG] lastWindow: 81
+[DEBUG] lastWindow: 153
+[DEBUG] lastWindow: 298
+[DEBUG] lastWindow: 398
+[DEBUG] lastWindow: 506
+[DEBUG] lastWindow: 618
+[DEBUG] lastWindow: 732
+[DEBUG] lastWindow: 850
+[rv]: 360
+========STATUS========: 0
+========DONE========: 1
+[DEBUG][CMD] echo 909 59 20 >> ../Data/bukalapak.com/windows5.csv
+[EXP FINISH]
+
+

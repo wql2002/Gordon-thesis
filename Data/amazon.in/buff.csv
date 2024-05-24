@@ -1,0 +1,66 @@
+[DEBUG][multi-probe] output file: ../Data/amazon.in/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 103
+[DEBUG] lastWindow: 129
+[DEBUG] lastWindow: 171
+[DEBUG] lastWindow: 233
+[DEBUG] lastWindow: 293
+[DEBUG] lastWindow: 359
+[DEBUG] lastWindow: 413
+[DEBUG] lastWindow: 457
+[DEBUG] lastWindow: 501
+[DEBUG] lastWindow: 549
+[DEBUG] lastWindow: 591
+[DEBUG] lastWindow: 635
+[DEBUG] lastWindow: 679
+[DEBUG] lastWindow: 723
+[DEBUG] lastWindow: 767
+[DEBUG] lastWindow: 811
+[DEBUG] lastWindow: 855
+[DEBUG] lastWindow: 899
+[DEBUG] lastWindow: 943
+[DEBUG] lastWindow: 990
+[DEBUG] lastWindow: 1034
+[DEBUG] lastWindow: 1080
+[DEBUG] lastWindow: 1124
+[DEBUG] lastWindow: 1170
+[DEBUG] lastWindow: 1212
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "amazon.in"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/amazon.in/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 103
+[DEBUG] lastWindow: 129
+[DEBUG] lastWindow: 171
+[DEBUG] lastWindow: 233
+[DEBUG] lastWindow: 293
+[DEBUG] lastWindow: 359
+[DEBUG] lastWindow: 413
+[DEBUG] lastWindow: 457
+[DEBUG] lastWindow: 501
+[DEBUG] lastWindow: 549
+[DEBUG] lastWindow: 591
+[DEBUG] lastWindow: 635
+[DEBUG] lastWindow: 679
+[DEBUG] lastWindow: 723
+[DEBUG] lastWindow: 767
+[DEBUG] lastWindow: 811
+[DEBUG] lastWindow: 855
+[DEBUG] lastWindow: 899
+[DEBUG] lastWindow: 943
+[DEBUG] lastWindow: 990
+[DEBUG] lastWindow: 1034
+[DEBUG] lastWindow: 1080
+[DEBUG] lastWindow: 1124
+[DEBUG] lastWindow: 1170
+[DEBUG] lastWindow: 1212
+[rv]: 116
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+
