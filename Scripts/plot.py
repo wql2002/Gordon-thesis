@@ -1,3 +1,5 @@
+# Usage: python3 plot.py <path/to/file>
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import argparse

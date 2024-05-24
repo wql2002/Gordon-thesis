@@ -302,12 +302,12 @@ int main(int argc, char **argv)
 		//char get[] ="wget -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O /dev/null '";
 		//as mobile client
 		//char get[] ="wget -U 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0 Mobile/15D100 Safari/604.1' -O /dev/null '";
-		// char get[] ="wget -t 10 -T 45 -U 'Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36' -O indexPage --no-check-certificate ";
-		char get[] ="wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate '";
-		// char get[] ="wget -t 10 -T 45 -O indexPage --no-check-certificate ";
+		// char get[] ="wget -t 10 -T 45 -U 'Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36' -O indexPage --no-check-certificate \"";
+		char get[] ="wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate \"";
+		// char get[] ="wget -t 10 -T 45 -O indexPage --no-check-certificate \"";
 		strcat(get, argv[1]);
-		// strcat(get, "\"");
-		printf("%s'\n", get);
+		strcat(get, "\"");
+		printf("%s\n", get);
 		system(get);
 		done = 1;
 		// destroySession(h, qh);

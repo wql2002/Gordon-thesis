@@ -93,6 +93,49 @@ set_url() {
 	esac
 }
 
+run_exp_with_repeat() {
+	local url=$1
+	local qd1=$2
+	local qd2=$3
+	local tt=$4
+	local trial_num=$5
+	local dn=$6
+	local buf_file=$7
+	local rep_time=5
+	local iter=0
+
+	for ((iter=0; iter<${rep_time}; iter++));
+	do
+		sudo iptables -I INPUT -p tcp -d ${DST_ADDR} -m state --state ESTABLISHED -j NFQUEUE --queue-num 0
+		sudo ${SRC_PATH}/src/multi-prober ${url} ${qd1} ${qd2} ${tt} \
+			${trial_num} ${DOMAIN_NAME} \
+			> ${buf_file}
+		sudo killall wget multi-prober
+		rm -f index* wget-log*	# remove extra files
+		sudo iptables --flush
+
+		check_wget_finish ${buf_file}
+		if [ ${SKIP_FLAG} = 0 ]; then
+			return 0
+		fi
+	done
+	
+	# if still fail after three repeats,
+	# exit this trial and mark this domain [TODO]
+	exit 0
+	# INPUT_FILE="../Alexa20k/cwnd_result.csv"
+
+	# # read .csv file
+	# line_num=0
+	# while IFS=' ' read -r x y; do
+	# 	# check if the test done at this url
+	# 	if [ "$x" = ${DOMAIN_NAME} ]; then
+
+	# 	fi
+	# 	((line_num++))
+	# done < ${INPUT_FILE}
+}
+
 # ------------------------------ RUN EXPERIMENT ------------------------------
 # determine wget target url
 check_web_size ${URL}
@@ -100,7 +143,7 @@ set_url ${URL_CASE}
 
 # determine RTT range
 RTT_START=$(wc -l < ${SRC_PATH}/Data/${DOMAIN_NAME}/windows.csv)
-RTT_END=50
+RTT_END=40
 
 # begin exp
 for ((i = ${RTT_START}; i <= ${RTT_END}; i++));
@@ -108,16 +151,17 @@ do
 	for (( j=$START; j<=$END; j++ ))
 	do
 		sleep 2
-		sudo iptables -I INPUT -p tcp -d ${DST_ADDR} -m state --state ESTABLISHED -j NFQUEUE --queue-num 0
+		# sudo iptables -I INPUT -p tcp -d ${DST_ADDR} -m state --state ESTABLISHED -j NFQUEUE --queue-num 0
 		echo "--------------------------------- RTT-$i, TRIAL-$j ----------------------"
-		sudo ${SRC_PATH}/src/multi-prober ${URL} 2000 3000 1500 "$j" ${DOMAIN_NAME} >> ${SRC_PATH}/Data/${DOMAIN_NAME}/buff.csv
+		run_exp_with_repeat ${URL} 2000 3000 1500 "$j" ${DOMAIN_NAME} ${SRC_PATH}/Data/${DOMAIN_NAME}/buff.csv
+		# sudo ${SRC_PATH}/src/multi-prober ${URL} 2000 3000 1500 "$j" ${DOMAIN_NAME} >> ${SRC_PATH}/Data/${DOMAIN_NAME}/buff.csv
 		# sleep 2000
 		# sudo ${SRC_PATH}/src/multi-prober "$1" 2000 3000 1500 "$j" ${DOMAIN_NAME} > ${SRC_PATH}/Data/${DOMAIN_NAME}/buff.csv &
 		# check_wget_finish ${SRC_PATH}/Data/${DOMAIN_NAME}/buff.csv
 		# sudo ${SRC_PATH}/src/multi-prober "$1" 2000 3000 1500 "$j" ${DOMAIN_NAME} > ${SRC_PATH}/Data/${DOMAIN_NAME}/buff.csv
 		# sudo killall wget multi-prober
-		rm -f index* wget-log*	# remove extra files
-		sudo iptables --flush
+		# rm -f index* wget-log*	# remove extra files
+		# sudo iptables --flush
 	done
 
 	# check if wget finish, if yes, exit
