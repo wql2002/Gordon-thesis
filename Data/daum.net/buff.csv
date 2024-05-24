@@ -1,0 +1,27 @@
+[DEBUG][multi-probe] output file: ../Data/daum.net/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 13
+[DEBUG] lastWindow: 14
+[DEBUG] lastWindow: 15
+[DEBUG] lastWindow: 16
+[DEBUG] lastWindow: 26
+[DEBUG] lastWindow: 39
+[DEBUG] lastWindow: 70
+[DEBUG] lastWindow: 133
+[DEBUG] lastWindow: 253
+[DEBUG] lastWindow: 371
+[DEBUG] lastWindow: 619
+[rv]: -1
+[buf size]: 16384
+========STATUS========: 0
+========DONE========: 0
+
+[SKIP]
+[EXP FINISH]
+
+

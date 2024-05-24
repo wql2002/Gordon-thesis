@@ -135,22 +135,22 @@ dailymotion.com cubic_loss
 indeed.com [FORBID]
 vimeo.com unknown_never_go_up_80
 nicovideo.jp [FAIL]
-caijing.com.cn
-google.co.za
-google.com.vn
-ebay.de
-google.com.sg
-openload.co
-theguardian.com
-daum.net
-roblox.com
-ok.ru
+caijing.com.cn [FAIL]
+google.co.za bbr_nonLoss
+google.com.vn unknown_nonLoss
+ebay.de bbr_nonLoss
+google.com.sg bbr_nonLoss
+openload.co unknown_never_go_up_80
+theguardian.com cubic_loss
+daum.net bbr_nonLoss
+roblox.com bbr_nonLoss
+ok.ru [FAIL]
 globo.com
 chaturbate.com [FORBID]
 softonic.com [FAIL]
 salesforce.com
-slideshare.net
-ettoday.net
+slideshare.net cubic_loss
+ettoday.net bbr_loss
 liputan6.com
 ebay.co.uk
 flipkart.com [FAIL]

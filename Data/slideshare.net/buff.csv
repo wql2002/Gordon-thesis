@@ -1,0 +1,88 @@
+[DEBUG][multi-probe] output file: ../Data/slideshare.net/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 25
+[DEBUG] lastWindow: 27
+[DEBUG] lastWindow: 28
+[DEBUG] lastWindow: 29
+[DEBUG] lastWindow: 69
+[DEBUG] lastWindow: 149
+[DEBUG] lastWindow: 309
+[DEBUG] lastWindow: 419
+[DEBUG] lastWindow: 536
+[DEBUG] lastWindow: 658
+[DEBUG] lastWindow: 786
+[DEBUG] lastWindow: 918
+[DEBUG] lastWindow: 1056
+[DEBUG] lastWindow: 1199
+[DEBUG] lastWindow: 1346
+[DEBUG] lastWindow: 1495
+[DEBUG] lastWindow: 1647
+[DEBUG] lastWindow: 1802
+[DEBUG] lastWindow: 1960
+[DEBUG] lastWindow: 2119
+[DEBUG] lastWindow: 2279
+[DEBUG] lastWindow: 2439
+[DEBUG] lastWindow: 2599
+[DEBUG] lastWindow: 2759
+[DEBUG] lastWindow: 2919
+[DEBUG] lastWindow: 3080
+[DEBUG] lastWindow: 3244
+[DEBUG] lastWindow: 3411
+[DEBUG] lastWindow: 3582
+[DEBUG] lastWindow: 3762
+[DEBUG] lastWindow: 3873
+[DEBUG] lastWindow: 3877
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://fr.slideshare.net/egelygyorgy/egely-gyrgy-tiltott-tallmnyok-9264355"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/slideshare.net/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 25
+[DEBUG] lastWindow: 27
+[DEBUG] lastWindow: 28
+[DEBUG] lastWindow: 29
+[DEBUG] lastWindow: 69
+[DEBUG] lastWindow: 149
+[DEBUG] lastWindow: 309
+[DEBUG] lastWindow: 419
+[DEBUG] lastWindow: 536
+[DEBUG] lastWindow: 658
+[DEBUG] lastWindow: 786
+[DEBUG] lastWindow: 918
+[DEBUG] lastWindow: 1056
+[DEBUG] lastWindow: 1199
+[DEBUG] lastWindow: 1346
+[DEBUG] lastWindow: 1495
+[DEBUG] lastWindow: 1647
+[DEBUG] lastWindow: 1802
+[DEBUG] lastWindow: 1960
+[DEBUG] lastWindow: 2119
+[DEBUG] lastWindow: 2279
+[DEBUG] lastWindow: 2439
+[DEBUG] lastWindow: 2599
+[DEBUG] lastWindow: 2759
+[DEBUG] lastWindow: 2919
+[DEBUG] lastWindow: 3080
+[DEBUG] lastWindow: 3244
+[DEBUG] lastWindow: 3411
+[DEBUG] lastWindow: 3582
+[DEBUG] lastWindow: 3762
+[DEBUG] lastWindow: 3873
+[DEBUG] lastWindow: 3877
+[rv]: 340
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

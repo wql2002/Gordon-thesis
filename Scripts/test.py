@@ -28,12 +28,12 @@ def data_proc1(urlFilePath):
 
 def count_results(urlFilePath, end, start = 0):
     result_counts = {}
-    
+    # open file
     urlFile = open(urlFilePath)
     csvReader = csv.reader(urlFile)
     urlInfos = list(csvReader)
     urlFile.close()
-    
+    # count results by cc types
     for i in range(start, end):
         # print(urlInfos[i])
         urlInfos[i] = urlInfos[i][0].split(" ")
@@ -45,12 +45,16 @@ def count_results(urlFilePath, end, start = 0):
         else:
             result_counts[result] = 1
     
+    # show result
     total = sum(result_counts.values())
-    for result, count in result_counts.items():
+    sorted_results = sorted(result_counts.items(), key=lambda item: item[1], reverse=True)
+    
+    for result, count in sorted_results:
         print(f"{result}: {count / total:.2%}")
 
 
 def test_wget(urlFilePath, end, start = 0):
+    # open and read .csv file 
     urlFile = open(urlFilePath)
     csvReader = csv.reader(urlFile)
     urlInfos = list(csvReader)
@@ -100,6 +104,6 @@ if __name__ == "__main__":
     # print(arg0)
     # print(arg1)
     # data_proc1("/home/ubuntu/Gordon/Data/google.com/windows1.csv")
-    # count_results("/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv", 121)
+    # count_results("/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv", 146)
     # test_wget("/home/ubuntu/Gordon/Alexa20k/exp_links.csv", 133, 124)
-    cc_clasify("/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv", 138, 131)
+    cc_clasify("/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv", 156, 146)

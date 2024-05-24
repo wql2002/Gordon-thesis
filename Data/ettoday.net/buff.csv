@@ -1,0 +1,28 @@
+[DEBUG][multi-probe] output file: ../Data/ettoday.net/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 24
+[DEBUG] lastWindow: 26
+[DEBUG] lastWindow: 27
+[DEBUG] lastWindow: 65
+[DEBUG] lastWindow: 135
+[DEBUG] lastWindow: 274
+[DEBUG] lastWindow: 381
+[DEBUG] lastWindow: 487
+[DEBUG] lastWindow: 607
+[DEBUG] lastWindow: 720
+[DEBUG] lastWindow: 852
+[DEBUG] lastWindow: 961
+[DEBUG] lastWindow: 1083
+[DEBUG] lastWindow: 1318
+[rv]: -1
+[buf size]: 16384
+========STATUS========: 0
+========DONE========: 0
+
+[SKIP]
+[EXP FINISH]
+
+
