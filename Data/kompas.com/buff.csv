@@ -1,0 +1,72 @@
+[DEBUG][multi-probe] output file: ../Data/kompas.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 7
+[DEBUG] lastWindow: 30
+[DEBUG] lastWindow: 77
+[DEBUG] lastWindow: 138
+[DEBUG] lastWindow: 258
+[DEBUG] lastWindow: 379
+[DEBUG] lastWindow: 529
+[DEBUG] lastWindow: 694
+[DEBUG] lastWindow: 824
+[DEBUG] lastWindow: 930
+[DEBUG] lastWindow: 1036
+[DEBUG] lastWindow: 1144
+[DEBUG] lastWindow: 1250
+[DEBUG] lastWindow: 1356
+[DEBUG] lastWindow: 1462
+[DEBUG] lastWindow: 1568
+[DEBUG] lastWindow: 1674
+[DEBUG] lastWindow: 1782
+[DEBUG] lastWindow: 1890
+[DEBUG] lastWindow: 1996
+[DEBUG] lastWindow: 2104
+[DEBUG] lastWindow: 2118
+[DEBUG] lastWindow: 2120
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://asset.kompas.com/data/2017/widget/css/ace-rev.css"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/kompas.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 7
+[DEBUG] lastWindow: 30
+[DEBUG] lastWindow: 77
+[DEBUG] lastWindow: 138
+[DEBUG] lastWindow: 258
+[DEBUG] lastWindow: 379
+[DEBUG] lastWindow: 529
+[DEBUG] lastWindow: 694
+[DEBUG] lastWindow: 824
+[DEBUG] lastWindow: 930
+[DEBUG] lastWindow: 1036
+[DEBUG] lastWindow: 1144
+[DEBUG] lastWindow: 1250
+[DEBUG] lastWindow: 1356
+[DEBUG] lastWindow: 1462
+[DEBUG] lastWindow: 1568
+[DEBUG] lastWindow: 1674
+[DEBUG] lastWindow: 1782
+[DEBUG] lastWindow: 1890
+[DEBUG] lastWindow: 1996
+[DEBUG] lastWindow: 2104
+[DEBUG] lastWindow: 2118
+[DEBUG] lastWindow: 2120
+[rv]: 169
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

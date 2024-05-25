@@ -1,0 +1,60 @@
+[DEBUG][multi-probe] output file: ../Data/medium.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 18
+[DEBUG] lastWindow: 150
+[DEBUG] lastWindow: 327
+[DEBUG] lastWindow: 512
+[DEBUG] lastWindow: 685
+[DEBUG] lastWindow: 871
+[DEBUG] lastWindow: 1057
+[DEBUG] lastWindow: 1165
+[DEBUG] lastWindow: 1273
+[DEBUG] lastWindow: 1395
+[DEBUG] lastWindow: 1505
+[DEBUG] lastWindow: 1613
+[DEBUG] lastWindow: 1721
+[DEBUG] lastWindow: 1828
+[DEBUG] lastWindow: 1950
+[DEBUG] lastWindow: 2033
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://onezero.medium.com/archive?gi=193189f47dbb"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/medium.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 18
+[DEBUG] lastWindow: 150
+[DEBUG] lastWindow: 327
+[DEBUG] lastWindow: 512
+[DEBUG] lastWindow: 685
+[DEBUG] lastWindow: 871
+[DEBUG] lastWindow: 1057
+[DEBUG] lastWindow: 1165
+[DEBUG] lastWindow: 1273
+[DEBUG] lastWindow: 1395
+[DEBUG] lastWindow: 1505
+[DEBUG] lastWindow: 1613
+[DEBUG] lastWindow: 1721
+[DEBUG] lastWindow: 1828
+[DEBUG] lastWindow: 1950
+[DEBUG] lastWindow: 2033
+[rv]: 116
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

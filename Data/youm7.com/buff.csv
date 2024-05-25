@@ -1,0 +1,84 @@
+[DEBUG][multi-probe] output file: ../Data/youm7.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 24
+[DEBUG] lastWindow: 26
+[DEBUG] lastWindow: 27
+[DEBUG] lastWindow: 194
+[DEBUG] lastWindow: 365
+[DEBUG] lastWindow: 525
+[DEBUG] lastWindow: 687
+[DEBUG] lastWindow: 869
+[DEBUG] lastWindow: 1055
+[DEBUG] lastWindow: 1197
+[DEBUG] lastWindow: 1305
+[DEBUG] lastWindow: 1413
+[DEBUG] lastWindow: 1519
+[DEBUG] lastWindow: 1631
+[DEBUG] lastWindow: 1741
+[DEBUG] lastWindow: 1849
+[DEBUG] lastWindow: 1957
+[DEBUG] lastWindow: 2065
+[DEBUG] lastWindow: 2173
+[DEBUG] lastWindow: 2281
+[DEBUG] lastWindow: 2387
+[DEBUG] lastWindow: 2493
+[DEBUG] lastWindow: 2597
+[DEBUG] lastWindow: 2687
+[DEBUG] lastWindow: 2761
+[DEBUG] lastWindow: 2837
+[DEBUG] lastWindow: 2911
+[DEBUG] lastWindow: 2985
+[DEBUG] lastWindow: 3061
+[DEBUG] lastWindow: 3098
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://www.youm7.com/story/2018/6/20/%D9%85%D9%88%D8%B3%D9%88%D8%B9%D8%A9-%D9%83%D8%A3%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7-2018-%D9%83%D9%84-%D9%85%D8%A7-%D8%AA%D8%B1%D9%8A%D8%AF-%D9%85%D8%B9%D8%B1%D9%81%D8%AA%D9%87-%D8%B9%D9%86/3840254"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/youm7.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 24
+[DEBUG] lastWindow: 26
+[DEBUG] lastWindow: 27
+[DEBUG] lastWindow: 194
+[DEBUG] lastWindow: 365
+[DEBUG] lastWindow: 525
+[DEBUG] lastWindow: 687
+[DEBUG] lastWindow: 869
+[DEBUG] lastWindow: 1055
+[DEBUG] lastWindow: 1197
+[DEBUG] lastWindow: 1305
+[DEBUG] lastWindow: 1413
+[DEBUG] lastWindow: 1519
+[DEBUG] lastWindow: 1631
+[DEBUG] lastWindow: 1741
+[DEBUG] lastWindow: 1849
+[DEBUG] lastWindow: 1957
+[DEBUG] lastWindow: 2065
+[DEBUG] lastWindow: 2173
+[DEBUG] lastWindow: 2281
+[DEBUG] lastWindow: 2387
+[DEBUG] lastWindow: 2493
+[DEBUG] lastWindow: 2597
+[DEBUG] lastWindow: 2687
+[DEBUG] lastWindow: 2761
+[DEBUG] lastWindow: 2837
+[DEBUG] lastWindow: 2911
+[DEBUG] lastWindow: 2985
+[DEBUG] lastWindow: 3061
+[DEBUG] lastWindow: 3098
+[rv]: 225
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

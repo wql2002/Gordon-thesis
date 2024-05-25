@@ -4,10 +4,45 @@
 [DEBUG] lastWindow: 2
 [DEBUG] lastWindow: 3
 [DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 14
+[DEBUG] lastWindow: 19
+[DEBUG] lastWindow: 44
+[DEBUG] lastWindow: 93
+[DEBUG] lastWindow: 158
+[DEBUG] lastWindow: 226
+[DEBUG] lastWindow: 298
+[DEBUG] lastWindow: 373
+[DEBUG] lastWindow: 452
+[DEBUG] lastWindow: 535
+[DEBUG] lastWindow: 592
+[DEBUG] lastWindow: 651
+[DEBUG] lastWindow: 711
+[DEBUG] lastWindow: 774
+[DEBUG] lastWindow: 840
+[DEBUG] lastWindow: 908
+[DEBUG] lastWindow: 977
+[DEBUG] lastWindow: 1048
+[DEBUG] lastWindow: 1121
+[DEBUG] lastWindow: 1196
+[DEBUG] lastWindow: 1272
+[DEBUG] lastWindow: 1349
+[DEBUG] lastWindow: 1427
+[DEBUG] lastWindow: 1506
+[DEBUG] lastWindow: 1586
+[DEBUG] lastWindow: 1667
+[DEBUG] lastWindow: 1749
+[DEBUG] lastWindow: 1832
+[DEBUG] lastWindow: 1915
+[DEBUG] lastWindow: 1998
+[DEBUG] lastWindow: 2081
+[DEBUG] lastWindow: 2164
+[DEBUG] lastWindow: 2247
+[DEBUG] lastWindow: 2330
+[DEBUG] lastWindow: 2413
 [rv]: 360
 ========STATUS========: 0
 ========DONE========: 1
-[DEBUG][CMD] echo 14 10 5 >> ../Data/globo.com/windows5.csv
+[DEBUG][CMD] echo 2495 82 40 >> ../Data/globo.com/windows5.csv
 [EXP FINISH]
 
 

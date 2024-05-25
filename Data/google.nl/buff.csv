@@ -1,0 +1,72 @@
+[DEBUG][multi-probe] output file: ../Data/google.nl/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 13
+[DEBUG] lastWindow: 15
+[DEBUG] lastWindow: 16
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 18
+[DEBUG] lastWindow: 19
+[DEBUG] lastWindow: 20
+[DEBUG] lastWindow: 21
+[DEBUG] lastWindow: 32
+[DEBUG] lastWindow: 40
+[DEBUG] lastWindow: 41
+[DEBUG] lastWindow: 42
+[DEBUG] lastWindow: 70
+[DEBUG] lastWindow: 124
+[DEBUG] lastWindow: 230
+[DEBUG] lastWindow: 352
+[DEBUG] lastWindow: 501
+[DEBUG] lastWindow: 649
+[DEBUG] lastWindow: 797
+[DEBUG] lastWindow: 901
+[DEBUG] lastWindow: 1008
+[DEBUG] lastWindow: 1111
+[DEBUG] lastWindow: 1194
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "google.nl"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/google.nl/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 13
+[DEBUG] lastWindow: 15
+[DEBUG] lastWindow: 16
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 18
+[DEBUG] lastWindow: 19
+[DEBUG] lastWindow: 20
+[DEBUG] lastWindow: 21
+[DEBUG] lastWindow: 32
+[DEBUG] lastWindow: 40
+[DEBUG] lastWindow: 41
+[DEBUG] lastWindow: 42
+[DEBUG] lastWindow: 70
+[DEBUG] lastWindow: 124
+[DEBUG] lastWindow: 230
+[DEBUG] lastWindow: 352
+[DEBUG] lastWindow: 501
+[DEBUG] lastWindow: 649
+[DEBUG] lastWindow: 797
+[DEBUG] lastWindow: 901
+[DEBUG] lastWindow: 1008
+[DEBUG] lastWindow: 1111
+[DEBUG] lastWindow: 1194
+[rv]: 324
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

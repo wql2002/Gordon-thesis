@@ -1,0 +1,70 @@
+[DEBUG][multi-probe] output file: ../Data/w3schools.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 7
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 10
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 19
+[DEBUG] lastWindow: 51
+[DEBUG] lastWindow: 113
+[DEBUG] lastWindow: 238
+[DEBUG] lastWindow: 324
+[DEBUG] lastWindow: 414
+[DEBUG] lastWindow: 508
+[DEBUG] lastWindow: 606
+[DEBUG] lastWindow: 707
+[DEBUG] lastWindow: 813
+[DEBUG] lastWindow: 921
+[DEBUG] lastWindow: 1032
+[DEBUG] lastWindow: 1147
+[DEBUG] lastWindow: 1264
+[DEBUG] lastWindow: 1382
+[DEBUG] lastWindow: 1503
+[DEBUG] lastWindow: 1613
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://www.w3schools.com/icons/icons_reference.asp"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/w3schools.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 7
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 10
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 19
+[DEBUG] lastWindow: 51
+[DEBUG] lastWindow: 113
+[DEBUG] lastWindow: 238
+[DEBUG] lastWindow: 324
+[DEBUG] lastWindow: 414
+[DEBUG] lastWindow: 508
+[DEBUG] lastWindow: 606
+[DEBUG] lastWindow: 707
+[DEBUG] lastWindow: 813
+[DEBUG] lastWindow: 921
+[DEBUG] lastWindow: 1032
+[DEBUG] lastWindow: 1147
+[DEBUG] lastWindow: 1264
+[DEBUG] lastWindow: 1382
+[DEBUG] lastWindow: 1503
+[DEBUG] lastWindow: 1613
+[rv]: 261
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

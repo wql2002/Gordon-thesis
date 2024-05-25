@@ -145,69 +145,69 @@ theguardian.com cubic_loss
 daum.net bbr_nonLoss
 roblox.com bbr_nonLoss
 ok.ru [FAIL]
-globo.com
+globo.com illinois_loss
 chaturbate.com [FORBID]
 softonic.com [FAIL]
-salesforce.com
+salesforce.com bbr_nonLoss
 slideshare.net cubic_loss
 ettoday.net bbr_loss
-liputan6.com
-ebay.co.uk
+liputan6.com bbr_nonLoss
+ebay.co.uk bbr_nonLoss
 flipkart.com [FAIL]
-google.co.ao
-w3schools.com
-uol.com.br
-iqiyi.com
-zhihu.com
-google.az
-people.com.cn
-researchgate.net
-google.co.ve
-godaddy.com
-upornia.com
-fc2.com
-mediafire.com
-huanqiu.com
-cnet.com
-dnckawxatc.com
+google.co.ao bbr_nonLoss
+w3schools.com cubic_loss
+uol.com.br unknown_never_go_up_80
+iqiyi.com Type_III
+zhihu.com unknown_never_go_up_80
+google.az bbr_nonLoss
+people.com.cn bbr_loss
+researchgate.net [FORBID]
+google.co.ve bbr_nonLoss
+godaddy.com unknown_never_go_up_80
+upornia.com illinois_loss
+fc2.com illinois_loss
+mediafire.com unknown_never_go_up_80
+huanqiu.com unknown_never_go_up_80
+cnet.com [FAIL]
+dnckawxatc.com unknown_never_go_up_80
 etsy.com [FORBID]
-wetransfer.com
-google.com.co
+wetransfer.com bbr_nonLoss
+google.com.co bbr_nonLoss
 yy.com [FORBID]
-scribd.com
-wikihow.com
-vice.com
-bet9ja.com
-mercadolivre.com.br
-ci123.com
-google.nl
-newsupdateunit.info
-kompas.com
-bankofamerica.com
-deviantart.com
-exosrv.com
-rednet.cn
+scribd.com cubic_loss
+wikihow.com cubic_loss
+vice.com cubic_loss
+bet9ja.com vegas_loss
+mercadolivre.com.br bbr_loss
+ci123.com bbr_nonLoss
+google.nl bbr_nonLoss
+newsupdateunit.info unknown_never_go_up_80
+kompas.com bbr_nonLoss
+bankofamerica.com short_flow_loss
+deviantart.com bbr_nonLoss
+exosrv.com [FAIL]
+rednet.cn unknown_nonLoss
 quizlet.com [FORBID]
-google.gr
-google.cn
-wellsfargo.com
-walmart.com
-google.com.ph
-youm7.com
-dkn.tv
-google.com.pe
-medium.com
-outbrain.com
+google.gr bbr_nonLoss
+google.cn unknown_never_go_up_80
+wellsfargo.com bbr_nonLoss
+walmart.com unknown_nonLoss
+google.com.ph bbr_nonLoss
+youm7.com YEAH_loss
+dkn.tv short_flow_loss
+google.com.pe bbr_nonLoss
+medium.com bbr_nonLoss
+outbrain.com short_flow_loss
 amazon.it
 amazon.fr
 patria.org.ve
 discordapp.com
-onlinevideoconverter.com
-indiatimes.com
-breitbart.com
-ebc.net.tw
-washingtonpost.com
-alibaba.com
+onlinevideoconverter.com unknown_never_go_up_80
+indiatimes.com unknown_never_go_up_80
+breitbart.com short_flow_loss
+ebc.net.tw bbr_nonLoss
+washingtonpost.com bbr_nonLoss
+alibaba.com cubic_loss
 youporn.com
 mozilla.org
 1688.com

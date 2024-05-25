@@ -3,6 +3,8 @@ import os
 import csv
 import subprocess
 import tcpClassify
+import matplotlib.pyplot as plt
+import numpy as np
 
 def data_proc1(urlFilePath):
     # projHomePath = "/home/ubuntu/Gordon"
@@ -96,14 +98,98 @@ def cc_clasify(urlFilePath, end, start = 0):
             except Exception as e:
                 print(f"Exception: {e}")
 
+def get_size_distri(urlFilePath, resultPath, sizePath, end, start = 0):
+    # open and read .csv file 
+    urlFile = open(urlFilePath)
+    csvReader = csv.reader(urlFile)
+    urlInfos = list(csvReader)
+    urlFile.close()
+    
+    resultFile = open(resultPath)
+    csvReader = csv.reader(resultFile)
+    resultInfos = list(csvReader)
+    resultFile.close()
+    
+    for i in range(start, end):
+        # print(urlInfos[i])
+        urlInfos[i] = urlInfos[i][0].split(" ")
+        url_domain = str(urlInfos[i][1])
+        url_link = str(urlInfos[i][2])
+        
+        resultInfos[i] = resultInfos[i][0].split(" ")
+        url_result = str(resultInfos[i][1])
+        
+        # print(f"url_result: {url_result}")
+        if (url_result == "[FAIL]" or 
+            url_result == "[TODO]" or 
+            url_result == "[FORBID]" or 
+            url_result == "[SHORT]"):
+            with open(sizePath, 'a') as f:
+                f.write(f"{url_domain} {0}\n")
+            continue
+        
+        try:
+            cmd = ["wget", "-U", 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0',
+                   "-O", "indexPage", "--no-check-certificate", url_link]
+            subprocess.run(cmd)
+            # subprocess.call(["mm-delay " + str(delayTime) + " ./multi-launch.sh " + targetURL + " 5 " + targetDomain], shell=True, executable='/bin/bash')
+            #subprocess.call(["./multi-launch.sh "+targetURL+" 10"], shell=True, executable='/bin/bash')
+        except Exception as e:
+            print(e)
+        
+        file_size = os.path.getsize("indexPage")
+        if file_size <= 100000:
+            try:
+                cmd = ["rm", "indexPage"]
+                subprocess.run(cmd)
+                cmd = ["wget", "-U", 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0',
+                    "-O", "indexPage", "--no-check-certificate", url_domain]
+                subprocess.run(cmd)
+            except Exception as e:
+                print(e)
+
+        file_size = os.path.getsize("indexPage")
+        with open(sizePath, 'a') as f:
+            f.write(f"{url_domain} {file_size}\n")
+        cmd = ["rm", "indexPage"]
+        subprocess.run(cmd)
+
+def draw_size_distri(sizePath, plotPath):
+    data = []
+    sizeFile = open(sizePath)
+    csvReader = csv.reader(sizeFile)
+    sizeInfos = list(csvReader)
+    sizeFile.close()
+    
+    for i in range(len(sizeInfos)):
+        # print(urlInfos[i])
+        sizeInfos[i] = sizeInfos[i][0].split(" ")
+        web_size = str(sizeInfos[i][1])
+        data.append(int(web_size) / 1000) # /KB
+    
+    # compute cdf
+    sorted_data = sorted(data)
+    cdf = np.arange(1, len(sorted_data) + 1) / len(sorted_data)
+    # plot cdf
+    plt.step(sorted_data, cdf, where='post', label='CDF')
+    plt.xscale('log')
+    plt.title('CDF of web page sizes')
+    plt.xlabel('web page size(KB)')
+    plt.ylabel('CDF')
+    plt.legend()
+    plt.grid(True)
+    plt.savefig(plotPath)
+    
 
 if __name__ == "__main__":
-    # arg0 = sys.argv[0]
-    # arg1 = sys.argv[1]
-    
-    # print(arg0)
-    # print(arg1)
     # data_proc1("/home/ubuntu/Gordon/Data/google.com/windows1.csv")
-    # count_results("/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv", 146)
+    # count_results("/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv", 198)
     # test_wget("/home/ubuntu/Gordon/Alexa20k/exp_links.csv", 133, 124)
-    cc_clasify("/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv", 156, 146)
+    # cc_clasify("/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv", 211, 198)
+    # get_size_distri("/home/ubuntu/Gordon/Alexa20k/exp_links.csv",
+    #                 "/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv",
+    #                 "/home/ubuntu/Gordon/Alexa20k/web_size.csv",
+    #                 end = 200, start = 116)
+    draw_size_distri("/home/ubuntu/Gordon/Alexa20k/web_size.csv",
+                     "/home/ubuntu/Gordon/figures/size_distri.png")
+    

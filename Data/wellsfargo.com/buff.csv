@@ -1,0 +1,70 @@
+[DEBUG][multi-probe] output file: ../Data/wellsfargo.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 10
+[DEBUG] lastWindow: 11
+[DEBUG] lastWindow: 12
+[DEBUG] lastWindow: 13
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 25
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 36
+[DEBUG] lastWindow: 37
+[DEBUG] lastWindow: 39
+[DEBUG] lastWindow: 41
+[DEBUG] lastWindow: 42
+[DEBUG] lastWindow: 46
+[DEBUG] lastWindow: 54
+[DEBUG] lastWindow: 63
+[DEBUG] lastWindow: 68
+[DEBUG] lastWindow: 88
+[DEBUG] lastWindow: 124
+[DEBUG] lastWindow: 189
+[DEBUG] lastWindow: 312
+[DEBUG] lastWindow: 432
+[DEBUG] lastWindow: 572
+[DEBUG] lastWindow: 641
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "wellsfargo.com"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/wellsfargo.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 10
+[DEBUG] lastWindow: 11
+[DEBUG] lastWindow: 12
+[DEBUG] lastWindow: 13
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 25
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 36
+[DEBUG] lastWindow: 37
+[DEBUG] lastWindow: 39
+[DEBUG] lastWindow: 41
+[DEBUG] lastWindow: 42
+[DEBUG] lastWindow: 46
+[DEBUG] lastWindow: 54
+[DEBUG] lastWindow: 63
+[DEBUG] lastWindow: 68
+[DEBUG] lastWindow: 88
+[DEBUG] lastWindow: 124
+[DEBUG] lastWindow: 189
+[DEBUG] lastWindow: 312
+[DEBUG] lastWindow: 432
+[DEBUG] lastWindow: 572
+[DEBUG] lastWindow: 641
+[rv]: 140
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

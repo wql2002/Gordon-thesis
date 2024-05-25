@@ -1,0 +1,66 @@
+[DEBUG][multi-probe] output file: ../Data/vice.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 22
+[DEBUG] lastWindow: 24
+[DEBUG] lastWindow: 26
+[DEBUG] lastWindow: 27
+[DEBUG] lastWindow: 28
+[DEBUG] lastWindow: 29
+[DEBUG] lastWindow: 33
+[DEBUG] lastWindow: 35
+[DEBUG] lastWindow: 36
+[DEBUG] lastWindow: 37
+[DEBUG] lastWindow: 73
+[DEBUG] lastWindow: 146
+[DEBUG] lastWindow: 292
+[DEBUG] lastWindow: 393
+[DEBUG] lastWindow: 499
+[DEBUG] lastWindow: 610
+[DEBUG] lastWindow: 725
+[DEBUG] lastWindow: 846
+[DEBUG] lastWindow: 969
+[DEBUG] lastWindow: 1098
+[DEBUG] lastWindow: 1159
+[DEBUG] lastWindow: 1166
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://www.vice.com/en_asia/article/dpkgpz/yugoslavia-former-president-lavish-new-years-parties"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/vice.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 22
+[DEBUG] lastWindow: 24
+[DEBUG] lastWindow: 26
+[DEBUG] lastWindow: 27
+[DEBUG] lastWindow: 28
+[DEBUG] lastWindow: 29
+[DEBUG] lastWindow: 33
+[DEBUG] lastWindow: 35
+[DEBUG] lastWindow: 36
+[DEBUG] lastWindow: 37
+[DEBUG] lastWindow: 73
+[DEBUG] lastWindow: 146
+[DEBUG] lastWindow: 292
+[DEBUG] lastWindow: 393
+[DEBUG] lastWindow: 499
+[DEBUG] lastWindow: 610
+[DEBUG] lastWindow: 725
+[DEBUG] lastWindow: 846
+[DEBUG] lastWindow: 969
+[DEBUG] lastWindow: 1098
+[DEBUG] lastWindow: 1159
+[DEBUG] lastWindow: 1166
+[rv]: 239
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

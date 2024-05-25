@@ -1,0 +1,36 @@
+[DEBUG][multi-probe] output file: ../Data/dkn.tv/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 23
+[DEBUG] lastWindow: 25
+[DEBUG] lastWindow: 27
+[DEBUG] lastWindow: 200
+[DEBUG] lastWindow: 374
+[DEBUG] lastWindow: 487
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://www.dkn.tv/cat/the-gioi/diem-tin-the-gioi"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/dkn.tv/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 23
+[DEBUG] lastWindow: 25
+[DEBUG] lastWindow: 27
+[DEBUG] lastWindow: 200
+[DEBUG] lastWindow: 374
+[DEBUG] lastWindow: 487
+[rv]: 255
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

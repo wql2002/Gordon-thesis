@@ -1,0 +1,16 @@
+[DEBUG][multi-probe] output file: ../Data/dnckawxatc.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 10
+[DEBUG] lastWindow: 19
+[rv]: 320
+========STATUS========: 0
+========DONE========: 1
+[DEBUG][CMD] echo 21 2 8 >> ../Data/dnckawxatc.com/windows5.csv
+[EXP FINISH]
+
+

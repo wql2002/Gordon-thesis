@@ -1,0 +1,24 @@
+[DEBUG][multi-probe] output file: ../Data/breitbart.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 25
+[DEBUG] lastWindow: 27
+[DEBUG] lastWindow: 28
+[DEBUG] lastWindow: 204
+[DEBUG] lastWindow: 367
+[DEBUG] lastWindow: 613
+[DEBUG] lastWindow: 795
+[rv]: -1
+[buf size]: 16384
+========STATUS========: 0
+========DONE========: 0
+
+[SKIP]
+[EXP FINISH]
+
+

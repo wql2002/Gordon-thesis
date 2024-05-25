@@ -1,0 +1,40 @@
+[DEBUG][multi-probe] output file: ../Data/people.com.cn/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 7
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 54
+[DEBUG] lastWindow: 128
+[DEBUG] lastWindow: 267
+[DEBUG] lastWindow: 383
+[DEBUG] lastWindow: 567
+[DEBUG] lastWindow: 642
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "http://people.com.cn/"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/people.com.cn/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 7
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 54
+[DEBUG] lastWindow: 128
+[DEBUG] lastWindow: 267
+[DEBUG] lastWindow: 383
+[DEBUG] lastWindow: 567
+[DEBUG] lastWindow: 642
+[rv]: 360
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

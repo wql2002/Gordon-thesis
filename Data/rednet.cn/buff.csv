@@ -1,0 +1,29 @@
+[DEBUG][multi-probe] output file: ../Data/rednet.cn/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 13
+[DEBUG] lastWindow: 21
+[DEBUG] lastWindow: 23
+[DEBUG] lastWindow: 29
+[DEBUG] lastWindow: 61
+[DEBUG] lastWindow: 123
+[DEBUG] lastWindow: 248
+[DEBUG] lastWindow: 370
+[DEBUG] lastWindow: 511
+[DEBUG] lastWindow: 745
+[DEBUG] lastWindow: 1067
+[DEBUG] lastWindow: 1213
+[DEBUG] lastWindow: 1462
+[DEBUG] lastWindow: 1744
+[DEBUG] lastWindow: 1908
+[DEBUG] lastWindow: 2071
+[rv]: -1
+[buf size]: 16384
+========STATUS========: 0
+========DONE========: 0
+
+[SKIP]
+[EXP FINISH]
+
+

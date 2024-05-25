@@ -1,0 +1,48 @@
+[DEBUG][multi-probe] output file: ../Data/wetransfer.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 28
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 78
+[DEBUG] lastWindow: 135
+[DEBUG] lastWindow: 256
+[DEBUG] lastWindow: 375
+[DEBUG] lastWindow: 525
+[DEBUG] lastWindow: 695
+[DEBUG] lastWindow: 825
+[DEBUG] lastWindow: 931
+[DEBUG] lastWindow: 1037
+[DEBUG] lastWindow: 1110
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://wepresent.wetransfer.com/"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/wetransfer.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 28
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 78
+[DEBUG] lastWindow: 135
+[DEBUG] lastWindow: 256
+[DEBUG] lastWindow: 375
+[DEBUG] lastWindow: 525
+[DEBUG] lastWindow: 695
+[DEBUG] lastWindow: 825
+[DEBUG] lastWindow: 931
+[DEBUG] lastWindow: 1037
+[DEBUG] lastWindow: 1110
+[rv]: 116
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

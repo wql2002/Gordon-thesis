@@ -1,0 +1,48 @@
+[DEBUG][multi-probe] output file: ../Data/salesforce.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 7
+[DEBUG] lastWindow: 11
+[DEBUG] lastWindow: 20
+[DEBUG] lastWindow: 23
+[DEBUG] lastWindow: 28
+[DEBUG] lastWindow: 29
+[DEBUG] lastWindow: 36
+[DEBUG] lastWindow: 37
+[DEBUG] lastWindow: 38
+[DEBUG] lastWindow: 40
+[DEBUG] lastWindow: 41
+[DEBUG] lastWindow: 44
+[DEBUG] lastWindow: 46
+[DEBUG] lastWindow: 47
+[DEBUG] lastWindow: 49
+[DEBUG] lastWindow: 52
+[DEBUG] lastWindow: 55
+[DEBUG] lastWindow: 56
+[DEBUG] lastWindow: 59
+[DEBUG] lastWindow: 60
+[DEBUG] lastWindow: 61
+[DEBUG] lastWindow: 62
+[DEBUG] lastWindow: 63
+[DEBUG] lastWindow: 65
+[DEBUG] lastWindow: 66
+[DEBUG] lastWindow: 67
+[DEBUG] lastWindow: 68
+[DEBUG] lastWindow: 90
+[DEBUG] lastWindow: 119
+[DEBUG] lastWindow: 173
+[DEBUG] lastWindow: 280
+[DEBUG] lastWindow: 390
+[DEBUG] lastWindow: 538
+[rv]: 360
+========STATUS========: 0
+========DONE========: 1
+[DEBUG][CMD] echo 684 146 40 >> ../Data/salesforce.com/windows5.csv
+[EXP FINISH]
+
+

@@ -1,0 +1,20 @@
+[DEBUG][multi-probe] output file: ../Data/bankofamerica.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 11
+[DEBUG] lastWindow: 23
+[DEBUG] lastWindow: 26
+[DEBUG] lastWindow: 179
+[DEBUG] lastWindow: 316
+[DEBUG] lastWindow: 511
+[rv]: -1
+[buf size]: 16384
+========STATUS========: 0
+========DONE========: 0
+
+[SKIP]
+[EXP FINISH]
+
+
