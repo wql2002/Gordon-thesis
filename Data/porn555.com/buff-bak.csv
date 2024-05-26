@@ -9,10 +9,21 @@
 [DEBUG] lastWindow: 26
 [DEBUG] lastWindow: 27
 [DEBUG] lastWindow: 28
+[DEBUG] lastWindow: 29
+[DEBUG] lastWindow: 210
+[DEBUG] lastWindow: 365
+[DEBUG] lastWindow: 550
+[DEBUG] lastWindow: 704
+[DEBUG] lastWindow: 888
+[DEBUG] lastWindow: 1046
+[DEBUG] lastWindow: 1152
+[DEBUG] lastWindow: 1260
+[DEBUG] lastWindow: 1370
+[DEBUG] lastWindow: 1478
 [rv]: 360
 ========STATUS========: 0
 ========DONE========: 1
-[DEBUG][CMD] echo 29 1 10 >> ../Data/porn555.com/windows5.csv
+[DEBUG][CMD] echo 1532 54 21 >> ../Data/porn555.com/windows5.csv
 [EXP FINISH]
 
 

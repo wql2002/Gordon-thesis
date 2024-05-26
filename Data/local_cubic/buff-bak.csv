@@ -1,0 +1,48 @@
+[DEBUG][multi-probe] output file: ../Data/local_cubic/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 14
+[DEBUG] lastWindow: 34
+[DEBUG] lastWindow: 74
+[DEBUG] lastWindow: 146
+[DEBUG] lastWindow: 222
+[DEBUG] lastWindow: 301
+[DEBUG] lastWindow: 384
+[DEBUG] lastWindow: 441
+[DEBUG] lastWindow: 500
+[DEBUG] lastWindow: 562
+[DEBUG] lastWindow: 626
+[DEBUG] lastWindow: 692
+[DEBUG] lastWindow: 760
+[DEBUG] lastWindow: 830
+[DEBUG] lastWindow: 902
+[DEBUG] lastWindow: 976
+[DEBUG] lastWindow: 1051
+[DEBUG] lastWindow: 1128
+[DEBUG] lastWindow: 1206
+[DEBUG] lastWindow: 1285
+[DEBUG] lastWindow: 1365
+[DEBUG] lastWindow: 1446
+[DEBUG] lastWindow: 1528
+[DEBUG] lastWindow: 1610
+[DEBUG] lastWindow: 1693
+[DEBUG] lastWindow: 1776
+[DEBUG] lastWindow: 1859
+[DEBUG] lastWindow: 1942
+[DEBUG] lastWindow: 2025
+[DEBUG] lastWindow: 2108
+[DEBUG] lastWindow: 2191
+[DEBUG] lastWindow: 2274
+[DEBUG] lastWindow: 2357
+[DEBUG] lastWindow: 2440
+[DEBUG] lastWindow: 2524
+[rv]: 360
+========STATUS========: 0
+========DONE========: 1
+[DEBUG][CMD] echo 2608 84 40 >> ../Data/local_cubic/windows5.csv
+[EXP FINISH]
+
+

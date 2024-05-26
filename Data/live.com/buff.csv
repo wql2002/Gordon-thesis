@@ -1,0 +1,68 @@
+[DEBUG][multi-probe] output file: ../Data/live.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 10
+[DEBUG] lastWindow: 13
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 19
+[DEBUG] lastWindow: 21
+[DEBUG] lastWindow: 29
+[DEBUG] lastWindow: 37
+[DEBUG] lastWindow: 43
+[DEBUG] lastWindow: 45
+[DEBUG] lastWindow: 48
+[DEBUG] lastWindow: 50
+[DEBUG] lastWindow: 51
+[DEBUG] lastWindow: 58
+[DEBUG] lastWindow: 69
+[DEBUG] lastWindow: 77
+[DEBUG] lastWindow: 100
+[DEBUG] lastWindow: 140
+[DEBUG] lastWindow: 221
+[DEBUG] lastWindow: 306
+[DEBUG] lastWindow: 457
+[DEBUG] lastWindow: 610
+[DEBUG] lastWindow: 772
+[DEBUG] lastWindow: 894
+[DEBUG] lastWindow: 917
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://live.com"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/live.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 10
+[DEBUG] lastWindow: 13
+[DEBUG] lastWindow: 17
+[DEBUG] lastWindow: 19
+[DEBUG] lastWindow: 21
+[DEBUG] lastWindow: 29
+[DEBUG] lastWindow: 37
+[DEBUG] lastWindow: 43
+[DEBUG] lastWindow: 45
+[DEBUG] lastWindow: 48
+[DEBUG] lastWindow: 50
+[DEBUG] lastWindow: 51
+[DEBUG] lastWindow: 58
+[DEBUG] lastWindow: 69
+[DEBUG] lastWindow: 77
+[DEBUG] lastWindow: 100
+[DEBUG] lastWindow: 140
+[DEBUG] lastWindow: 221
+[DEBUG] lastWindow: 306
+[DEBUG] lastWindow: 457
+[DEBUG] lastWindow: 610
+[DEBUG] lastWindow: 772
+[DEBUG] lastWindow: 894
+[DEBUG] lastWindow: 917
+[rv]: 140
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

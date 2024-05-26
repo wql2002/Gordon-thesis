@@ -21,10 +21,28 @@
 [DEBUG] lastWindow: 324
 [DEBUG] lastWindow: 350
 [DEBUG] lastWindow: 376
+[DEBUG] lastWindow: 400
+[DEBUG] lastWindow: 425
+[DEBUG] lastWindow: 448
+[DEBUG] lastWindow: 472
+[DEBUG] lastWindow: 496
+[DEBUG] lastWindow: 519
+[DEBUG] lastWindow: 542
+[DEBUG] lastWindow: 565
+[DEBUG] lastWindow: 589
+[DEBUG] lastWindow: 612
+[DEBUG] lastWindow: 634
+[DEBUG] lastWindow: 656
+[DEBUG] lastWindow: 679
+[DEBUG] lastWindow: 701
+[DEBUG] lastWindow: 728
+[DEBUG] lastWindow: 750
+[DEBUG] lastWindow: 778
+[DEBUG] lastWindow: 801
 [rv]: 360
 ========STATUS========: 0
 ========DONE========: 1
-[DEBUG][CMD] echo 394 18 22 >> ../Data/zhihu.com/windows5.csv
+[DEBUG][CMD] echo 828 27 40 >> ../Data/zhihu.com/windows5.csv
 [EXP FINISH]
 
 

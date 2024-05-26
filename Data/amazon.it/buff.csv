@@ -1,0 +1,42 @@
+[DEBUG][multi-probe] output file: ../Data/amazon.it/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 27
+[DEBUG] lastWindow: 29
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 33
+[DEBUG] lastWindow: 66
+[DEBUG] lastWindow: 109
+[DEBUG] lastWindow: 167
+[DEBUG] lastWindow: 227
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://www.amazon.it/Levis-Perfect-Tee-T-Shirt-Donna/dp/B07QW9S5J9?pd_rd_wg=4D5Mp&pd_rd_r=b8295df7-171e-478e-a3e9-dbf09ca1bf92&pd_rd_w=nouqJ&ref_=pd_gw_ri&pf_rd_r=MGEHBX3BJ3XCPSA0QECY&pf_rd_p=2f43eca1-c58b-5fe0-9f36-c089040dc870"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/amazon.it/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 9
+[DEBUG] lastWindow: 27
+[DEBUG] lastWindow: 29
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 33
+[DEBUG] lastWindow: 66
+[DEBUG] lastWindow: 109
+[DEBUG] lastWindow: 167
+[DEBUG] lastWindow: 227
+[rv]: 116
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

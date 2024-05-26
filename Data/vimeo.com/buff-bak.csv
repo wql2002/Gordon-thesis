@@ -9,10 +9,19 @@
 [DEBUG] lastWindow: 18
 [DEBUG] lastWindow: 20
 [DEBUG] lastWindow: 21
-[rv]: 116
+[DEBUG] lastWindow: 22
+[DEBUG] lastWindow: 200
+[DEBUG] lastWindow: 370
+[DEBUG] lastWindow: 551
+[DEBUG] lastWindow: 736
+[DEBUG] lastWindow: 924
+[DEBUG] lastWindow: 1066
+[DEBUG] lastWindow: 1176
+[DEBUG] lastWindow: 1284
+[rv]: 360
 ========STATUS========: 0
 ========DONE========: 1
-[DEBUG][CMD] echo 22 1 10 >> ../Data/vimeo.com/windows5.csv
+[DEBUG][CMD] echo 1390 106 19 >> ../Data/vimeo.com/windows5.csv
 [EXP FINISH]
 
 

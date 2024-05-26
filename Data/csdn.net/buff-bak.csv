@@ -5,10 +5,11 @@
 [DEBUG] lastWindow: 3
 [DEBUG] lastWindow: 4
 [DEBUG] lastWindow: 19
-[rv]: 360
+[DEBUG] lastWindow: 22
+[rv]: 116
 ========STATUS========: 0
 ========DONE========: 1
-[DEBUG][CMD] echo 101 82 6 >> ../Data/csdn.net/windows5.csv
+[DEBUG][CMD] echo 23 1 7 >> ../Data/csdn.net/windows5.csv
 [EXP FINISH]
 
 

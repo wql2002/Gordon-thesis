@@ -1,1 +1,90 @@
-0 0
+[DEBUG][multi-probe] output file: ../Data/qq.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 20
+[DEBUG] lastWindow: 28
+[DEBUG] lastWindow: 29
+[DEBUG] lastWindow: 30
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 35
+[DEBUG] lastWindow: 40
+[DEBUG] lastWindow: 51
+[DEBUG] lastWindow: 55
+[DEBUG] lastWindow: 60
+[DEBUG] lastWindow: 84
+[DEBUG] lastWindow: 110
+[DEBUG] lastWindow: 136
+[DEBUG] lastWindow: 164
+[DEBUG] lastWindow: 191
+[DEBUG] lastWindow: 214
+[DEBUG] lastWindow: 237
+[DEBUG] lastWindow: 257
+[DEBUG] lastWindow: 276
+[DEBUG] lastWindow: 296
+[DEBUG] lastWindow: 315
+[DEBUG] lastWindow: 333
+[DEBUG] lastWindow: 351
+[DEBUG] lastWindow: 371
+[DEBUG] lastWindow: 389
+[DEBUG] lastWindow: 408
+[DEBUG] lastWindow: 428
+[DEBUG] lastWindow: 448
+[DEBUG] lastWindow: 467
+[DEBUG] lastWindow: 487
+[DEBUG] lastWindow: 505
+[DEBUG] lastWindow: 523
+[DEBUG] lastWindow: 528
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://qq.com/"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/qq.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 20
+[DEBUG] lastWindow: 28
+[DEBUG] lastWindow: 29
+[DEBUG] lastWindow: 30
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 35
+[DEBUG] lastWindow: 40
+[DEBUG] lastWindow: 51
+[DEBUG] lastWindow: 55
+[DEBUG] lastWindow: 60
+[DEBUG] lastWindow: 84
+[DEBUG] lastWindow: 110
+[DEBUG] lastWindow: 136
+[DEBUG] lastWindow: 164
+[DEBUG] lastWindow: 191
+[DEBUG] lastWindow: 214
+[DEBUG] lastWindow: 237
+[DEBUG] lastWindow: 257
+[DEBUG] lastWindow: 276
+[DEBUG] lastWindow: 296
+[DEBUG] lastWindow: 315
+[DEBUG] lastWindow: 333
+[DEBUG] lastWindow: 351
+[DEBUG] lastWindow: 371
+[DEBUG] lastWindow: 389
+[DEBUG] lastWindow: 408
+[DEBUG] lastWindow: 428
+[DEBUG] lastWindow: 448
+[DEBUG] lastWindow: 467
+[DEBUG] lastWindow: 487
+[DEBUG] lastWindow: 505
+[DEBUG] lastWindow: 523
+[DEBUG] lastWindow: 528
+[rv]: 140
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

@@ -13,10 +13,11 @@
 [DEBUG] lastWindow: 30
 [DEBUG] lastWindow: 49
 [DEBUG] lastWindow: 55
+[DEBUG] lastWindow: 100
 [rv]: 360
 ========STATUS========: 0
 ========DONE========: 1
-[DEBUG][CMD] echo 100 45 14 >> ../Data/godaddy.com/windows5.csv
+[DEBUG][CMD] echo 126 26 15 >> ../Data/godaddy.com/windows5.csv
 [EXP FINISH]
 
 

@@ -18,10 +18,39 @@
 [DEBUG] lastWindow: 66
 [DEBUG] lastWindow: 68
 [DEBUG] lastWindow: 224
-[rv]: -1
-[buf size]: 16384
-========STATUS========: 0
-========DONE========: 0
+[DEBUG] lastWindow: 385
+[DEBUG] lastWindow: 550
+[DEBUG] lastWindow: 727
+[DEBUG] lastWindow: 842
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://download1892.mediafire.com/p99uu2k135hg/trfwrzkc3211b71/Hrvrd+-+French+Girls.mp3"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/mediafire.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 27
+[DEBUG] lastWindow: 30
+[DEBUG] lastWindow: 33
+[DEBUG] lastWindow: 36
+[DEBUG] lastWindow: 37
+[DEBUG] lastWindow: 38
+[DEBUG] lastWindow: 39
+[DEBUG] lastWindow: 40
+[DEBUG] lastWindow: 41
+[DEBUG] lastWindow: 63
+[DEBUG] lastWindow: 66
+[DEBUG] lastWindow: 68
+[DEBUG] lastWindow: 224
+[DEBUG] lastWindow: 385
+[DEBUG] lastWindow: 550
+[DEBUG] lastWindow: 727
+[DEBUG] lastWindow: 842
+[rv]: 339
+========STATUS========: -1
+========DONE========: 1
 
 [SKIP]
 [EXP FINISH]

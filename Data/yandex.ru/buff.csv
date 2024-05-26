@@ -1,0 +1,56 @@
+[DEBUG][multi-probe] output file: ../Data/yandex.ru/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 16
+[DEBUG] lastWindow: 24
+[DEBUG] lastWindow: 32
+[DEBUG] lastWindow: 40
+[DEBUG] lastWindow: 41
+[DEBUG] lastWindow: 51
+[DEBUG] lastWindow: 64
+[DEBUG] lastWindow: 77
+[DEBUG] lastWindow: 81
+[DEBUG] lastWindow: 91
+[DEBUG] lastWindow: 96
+[DEBUG] lastWindow: 131
+[DEBUG] lastWindow: 164
+[DEBUG] lastWindow: 196
+[DEBUG] lastWindow: 201
+[DEBUG] lastWindow: 206
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://yandex.ru/themes"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/yandex.ru/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 16
+[DEBUG] lastWindow: 24
+[DEBUG] lastWindow: 32
+[DEBUG] lastWindow: 40
+[DEBUG] lastWindow: 41
+[DEBUG] lastWindow: 51
+[DEBUG] lastWindow: 64
+[DEBUG] lastWindow: 77
+[DEBUG] lastWindow: 81
+[DEBUG] lastWindow: 91
+[DEBUG] lastWindow: 96
+[DEBUG] lastWindow: 131
+[DEBUG] lastWindow: 164
+[DEBUG] lastWindow: 196
+[DEBUG] lastWindow: 201
+[DEBUG] lastWindow: 206
+[rv]: 140
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

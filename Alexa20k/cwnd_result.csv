@@ -1,19 +1,19 @@
 google cubic_loss
 youtube.com unknown_nonLoss
-facebook.com [TODO]
+facebook.com unknown_never_go_up_80
 baidu.com bbr_nonLoss
 wikipedia.org Type_II_nonLoss
-tmall.com [TODO]
-yahoo.com [TODO]
-qq.com [TODO]
+tmall.com unknown_never_go_up_80
+yahoo.com short_flow_loss
+qq.com unknown_never_go_up_80
 taobao.com unknown_never_go_up_80
 sohu.com YEAH_loss
 twitter.com unknown_never_go_up_80
 google.co.in bbr_nonLoss
-amazon.com [TODO]
+amazon.com unknown_never_go_up_80
 instagram.com bbr_nonLoss
-vk.com [TODO]
-live.com reno_nonLoss
+vk.com unknown_never_go_up_80
+live.com
 login.tmall.com Type_III
 yandex.ru unknown_never_go_up_80
 jd.com YEAH_loss
@@ -23,17 +23,17 @@ weibo.com unknown_never_go_up_80
 sina.com.cn illinois_loss
 google.co.jp short_flow_loss
 blogspot.com bbr_nonLoss
-linkedin.com [TODO]
-pages.tmall.com unknown_never_go_up_80
+linkedin.com illinois_loss
+pages.tmall.com Type_II_nonLoss
 netflix.com bbr_nonLoss
 google.com.br bbr_nonLoss
-google.com.hk unknown_never_go_up_80
+google.com.hk bbr_nonLoss
 google.co.uk bbr_nonLoss
 pornhub.com unknown_never_go_up_80
 yahoo.co.jp unknown_nonLoss
 alipay.com unknown_nonLoss
-office.com [TODO]
-microsoftonline.com [TODO]
+office.com bbr_nonLoss
+microsoftonline.com unknown_never_go_up_80
 mail.ru short_flow_loss
 google.ru bbr_nonLoss
 google.fr bbr_nonLoss
@@ -41,21 +41,21 @@ google.de bbr_nonLoss
 ebay.com short_flow_data_low_after_backoff
 microsoft.com bbr_loss     
 google.ca bbr_nonLoss     
-csdn.net unknown_never_go_up_80     
-t.co bbr_loss     
-twitch.tv unknown_never_go_up_80     
+csdn.net unknown_never_go_up_80
+t.co bbr_loss
+twitch.tv illinois_loss
 tribunnews.com bbr_nonLoss     
 msn.com unknown_never_go_up_80     
 whatsapp.com unknown_nonLoss     
 livejasmin.com unknown_loss     
 naver.com cubic_loss     
-bing.com unknown_never_go_up_80     
-xvideos.com unknown_never_go_up_80     
-aliexpress.com unknown_never_go_up_80     
+bing.com cubic_loss
+xvideos.com short_flow_data_low_after_backoff
+aliexpress.com unknown_never_go_up_80
 amazon.co.jp unknown_never_go_up_80
-wordpress.com [TODO]
+wordpress.com [FAIL]
 google.it bbr_nonLoss
-paypal.com [TODO]
+paypal.com short_flow_loss
 google.com.mx bbr_nonLoss
 imdb.com short_flow_data_low_after_backoff
 google.es bbr_nonLoss
@@ -63,9 +63,9 @@ stackoverflow.com unknown_nonLoss
 xhamster.com short_flow_data_low_after_backoff
 apple.com bic_loss
 google.com.tr unknown_never_go_up_80
-github.com [TODO]
+github.com [FAIL]
 google.com.tw bbr_nonLoss
-tumblr.com [TODO]
+tumblr.com [FAIL]
 imgur.com bbr_nonLoss
 espn.com unknown_nonLoss
 google.co.kr bbr_nonLoss
@@ -85,10 +85,10 @@ google.com.au bbr_nonLoss
 amazon.de unknown_never_go_up_80
 detail.tmall.com unknown_nonLoss
 google.co.id bbr_nonLoss
-amazon.co.uk unknown_never_go_up_80
+amazon.co.uk cubic_loss
 cobalten.com unknown_never_go_up_80
 hao123.com unknown_never_go_up_80
-quora.com unknown_never_go_up_80
+quora.com unknown_nonLoss
 pixnet.net short_flow_data_low_after_backoff
 amazonaws.com Type_II_nonLoss
 google.co.th bbr_nonLoss
@@ -126,14 +126,14 @@ so.com illinois_loss
 bukalapak.com cubic_loss
 nih.gov [FAIL]
 china.com.cn unknown_never_go_up_80
-porn555.com unknown_never_go_up_80
+porn555.com YEAH_loss
 google.com.ua bbr_nonLoss
 mama.cn unknown_nonLoss
 instructure.com unknown_nonLoss
 avito.ru unknown_never_go_up_80
 dailymotion.com cubic_loss
 indeed.com [FORBID]
-vimeo.com unknown_never_go_up_80
+vimeo.com unknown_nonLoss
 nicovideo.jp [FAIL]
 caijing.com.cn [FAIL]
 google.co.za bbr_nonLoss
@@ -166,7 +166,7 @@ google.co.ve bbr_nonLoss
 godaddy.com unknown_never_go_up_80
 upornia.com illinois_loss
 fc2.com illinois_loss
-mediafire.com unknown_never_go_up_80
+mediafire.com unknown_nonLoss
 huanqiu.com unknown_never_go_up_80
 cnet.com [FAIL]
 dnckawxatc.com unknown_never_go_up_80
@@ -198,22 +198,22 @@ dkn.tv short_flow_loss
 google.com.pe bbr_nonLoss
 medium.com bbr_nonLoss
 outbrain.com short_flow_loss
-amazon.it
-amazon.fr
-patria.org.ve
-discordapp.com
+amazon.it unknown_never_go_up_80
+amazon.fr illinois_loss
+patria.org.ve unknown_never_go_up_80
+discordapp.com YEAH_loss
 onlinevideoconverter.com unknown_never_go_up_80
 indiatimes.com unknown_never_go_up_80
 breitbart.com short_flow_loss
 ebc.net.tw bbr_nonLoss
 washingtonpost.com bbr_nonLoss
 alibaba.com cubic_loss
-youporn.com
-mozilla.org
-1688.com
-ladbible.com
-blogger.com
-slack.com
+youporn.com unknown_never_go_up_80
+mozilla.org unknown_nonLoss
+1688.com Type_II_nonLoss
+ladbible.com short_flow_loss
+blogger.com bbr_nonLoss
+slack.com cubic_loss
 cloudfront.net
 freepik.com
 setn.com

@@ -2,13 +2,49 @@
 [DEBUG] lastWindow: 0
 [DEBUG] lastWindow: 1
 [DEBUG] lastWindow: 19
+[DEBUG] lastWindow: 51
+[DEBUG] lastWindow: 115
+[DEBUG] lastWindow: 238
+[DEBUG] lastWindow: 323
+[DEBUG] lastWindow: 418
+[DEBUG] lastWindow: 517
+[DEBUG] lastWindow: 622
+[DEBUG] lastWindow: 730
+[DEBUG] lastWindow: 842
+[DEBUG] lastWindow: 955
+[DEBUG] lastWindow: 1071
+[DEBUG] lastWindow: 1189
+[DEBUG] lastWindow: 1309
+[DEBUG] lastWindow: 1430
+[DEBUG] lastWindow: 1552
+[DEBUG] lastWindow: 1676
+[DEBUG] lastWindow: 1800
+[DEBUG] lastWindow: 1923
 wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "http://www.bing.com/saves?type=Images&FORM=IRFVRF"
 [WGET DONE]
 [DEBUG][multi-probe] output file: ../Data/bing.com/windows.csv
 [DEBUG] lastWindow: 0
 [DEBUG] lastWindow: 1
 [DEBUG] lastWindow: 19
-[rv]: 640
+[DEBUG] lastWindow: 51
+[DEBUG] lastWindow: 115
+[DEBUG] lastWindow: 238
+[DEBUG] lastWindow: 323
+[DEBUG] lastWindow: 418
+[DEBUG] lastWindow: 517
+[DEBUG] lastWindow: 622
+[DEBUG] lastWindow: 730
+[DEBUG] lastWindow: 842
+[DEBUG] lastWindow: 955
+[DEBUG] lastWindow: 1071
+[DEBUG] lastWindow: 1189
+[DEBUG] lastWindow: 1309
+[DEBUG] lastWindow: 1430
+[DEBUG] lastWindow: 1552
+[DEBUG] lastWindow: 1676
+[DEBUG] lastWindow: 1800
+[DEBUG] lastWindow: 1923
+[rv]: 104
 ========STATUS========: -1
 ========DONE========: 1
 

@@ -10,10 +10,29 @@
 [DEBUG] lastWindow: 37
 [DEBUG] lastWindow: 40
 [DEBUG] lastWindow: 50
+[DEBUG] lastWindow: 57
+[DEBUG] lastWindow: 83
+[DEBUG] lastWindow: 109
+[DEBUG] lastWindow: 135
+[DEBUG] lastWindow: 161
+[DEBUG] lastWindow: 183
+[DEBUG] lastWindow: 203
+[DEBUG] lastWindow: 223
+[DEBUG] lastWindow: 239
+[DEBUG] lastWindow: 258
+[DEBUG] lastWindow: 276
+[DEBUG] lastWindow: 296
+[DEBUG] lastWindow: 314
+[DEBUG] lastWindow: 330
+[DEBUG] lastWindow: 348
+[DEBUG] lastWindow: 366
+[DEBUG] lastWindow: 384
+[DEBUG] lastWindow: 402
+[DEBUG] lastWindow: 418
 [rv]: 360
 ========STATUS========: 0
 ========DONE========: 1
-[DEBUG][CMD] echo 57 7 11 >> ../Data/aliexpress.com/windows5.csv
+[DEBUG][CMD] echo 437 19 30 >> ../Data/aliexpress.com/windows5.csv
 [EXP FINISH]
 
 

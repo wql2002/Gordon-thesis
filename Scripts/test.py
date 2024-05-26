@@ -79,11 +79,12 @@ def test_wget(urlFilePath, end, start = 0):
             cmd = ["rm", "index*", "wget-log*"]
             subprocess.run(cmd)
 
-def cc_clasify(urlFilePath, end, start = 0):
-    urlFile = open(urlFilePath)
-    csvReader = csv.reader(urlFile)
-    urlInfos = list(csvReader)
-    urlFile.close()
+def cc_clasify(urlFilePath, end, start = 0, mode = 0):
+    if mode == 0:
+        urlFile = open(urlFilePath)
+        csvReader = csv.reader(urlFile)
+        urlInfos = list(csvReader)
+        urlFile.close()
     
     for i in range(start, end):
         # print(urlInfos[i])
@@ -97,6 +98,14 @@ def cc_clasify(urlFilePath, end, start = 0):
                 print(f"[{domain_name}]:\t\t{cc_result}")
             except Exception as e:
                 print(f"Exception: {e}")
+
+def cc_clasify_local(domain_name):
+    cwnd_path = "../Data/" + domain_name + "/windows.csv"
+    try:
+        cc_result = tcpClassify.classify(cwnd_path, 0)
+        print(f"[{domain_name}]:\t\t{cc_result}")
+    except Exception as e:
+        print(f"Exception: {e}")
 
 def get_size_distri(urlFilePath, resultPath, sizePath, end, start = 0):
     # open and read .csv file 
@@ -120,12 +129,16 @@ def get_size_distri(urlFilePath, resultPath, sizePath, end, start = 0):
         url_result = str(resultInfos[i][1])
         
         # print(f"url_result: {url_result}")
-        if (url_result == "[FAIL]" or 
-            url_result == "[TODO]" or 
-            url_result == "[FORBID]" or 
-            url_result == "[SHORT]"):
-            with open(sizePath, 'a') as f:
-                f.write(f"{url_domain} {0}\n")
+        # if (url_result == "[FAIL]" or 
+        #     url_result == "[TODO]" or 
+        #     url_result == "[FORBID]" or 
+        #     url_result == "[SHORT]"):
+        #     with open(sizePath, 'a') as f:
+        #         f.write(f"{url_domain} {0}\n")
+        #     continue
+        # if url_result != "[TODO]":
+        #     continue
+        if url_result != "unknown_never_go_up_80":
             continue
         
         try:

@@ -10,7 +10,18 @@
 [DEBUG] lastWindow: 23
 [DEBUG] lastWindow: 27
 [DEBUG] lastWindow: 30
-wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://m.twitch.tv/static/_next/static/chunks/commons.2ca44527e6751288ea0c.js"
+[DEBUG] lastWindow: 32
+[DEBUG] lastWindow: 33
+[DEBUG] lastWindow: 48
+[DEBUG] lastWindow: 52
+[DEBUG] lastWindow: 82
+[DEBUG] lastWindow: 142
+[DEBUG] lastWindow: 264
+[DEBUG] lastWindow: 348
+[DEBUG] lastWindow: 435
+[DEBUG] lastWindow: 526
+[DEBUG] lastWindow: 593
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://twitch.tv"
 [WGET DONE]
 [DEBUG][multi-probe] output file: ../Data/twitch.tv/windows.csv
 [DEBUG] lastWindow: 0
@@ -24,6 +35,17 @@ wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Geck
 [DEBUG] lastWindow: 23
 [DEBUG] lastWindow: 27
 [DEBUG] lastWindow: 30
+[DEBUG] lastWindow: 32
+[DEBUG] lastWindow: 33
+[DEBUG] lastWindow: 48
+[DEBUG] lastWindow: 52
+[DEBUG] lastWindow: 82
+[DEBUG] lastWindow: 142
+[DEBUG] lastWindow: 264
+[DEBUG] lastWindow: 348
+[DEBUG] lastWindow: 435
+[DEBUG] lastWindow: 526
+[DEBUG] lastWindow: 593
 [rv]: 116
 ========STATUS========: -1
 ========DONE========: 1

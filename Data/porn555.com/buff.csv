@@ -10,10 +10,45 @@
 [DEBUG] lastWindow: 27
 [DEBUG] lastWindow: 28
 [DEBUG] lastWindow: 29
-[rv]: -1
-[buf size]: 16384
-========STATUS========: 0
-========DONE========: 0
+[DEBUG] lastWindow: 210
+[DEBUG] lastWindow: 365
+[DEBUG] lastWindow: 550
+[DEBUG] lastWindow: 704
+[DEBUG] lastWindow: 888
+[DEBUG] lastWindow: 1046
+[DEBUG] lastWindow: 1152
+[DEBUG] lastWindow: 1260
+[DEBUG] lastWindow: 1370
+[DEBUG] lastWindow: 1478
+[DEBUG] lastWindow: 1538
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://porn555.com/ru/natsumi%20horiguchi/"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/porn555.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 24
+[DEBUG] lastWindow: 26
+[DEBUG] lastWindow: 27
+[DEBUG] lastWindow: 28
+[DEBUG] lastWindow: 29
+[DEBUG] lastWindow: 210
+[DEBUG] lastWindow: 365
+[DEBUG] lastWindow: 550
+[DEBUG] lastWindow: 704
+[DEBUG] lastWindow: 888
+[DEBUG] lastWindow: 1046
+[DEBUG] lastWindow: 1152
+[DEBUG] lastWindow: 1260
+[DEBUG] lastWindow: 1370
+[DEBUG] lastWindow: 1478
+[DEBUG] lastWindow: 1538
+[rv]: 116
+========STATUS========: -1
+========DONE========: 1
 
 [SKIP]
 [EXP FINISH]

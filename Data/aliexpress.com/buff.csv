@@ -11,6 +11,25 @@
 [DEBUG] lastWindow: 40
 [DEBUG] lastWindow: 50
 [DEBUG] lastWindow: 57
+[DEBUG] lastWindow: 83
+[DEBUG] lastWindow: 109
+[DEBUG] lastWindow: 135
+[DEBUG] lastWindow: 161
+[DEBUG] lastWindow: 183
+[DEBUG] lastWindow: 203
+[DEBUG] lastWindow: 223
+[DEBUG] lastWindow: 239
+[DEBUG] lastWindow: 258
+[DEBUG] lastWindow: 276
+[DEBUG] lastWindow: 296
+[DEBUG] lastWindow: 314
+[DEBUG] lastWindow: 330
+[DEBUG] lastWindow: 348
+[DEBUG] lastWindow: 366
+[DEBUG] lastWindow: 384
+[DEBUG] lastWindow: 402
+[DEBUG] lastWindow: 418
+[DEBUG] lastWindow: 437
 wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://www.aliexpress.com/smart-watch_reviews.html"
 [WGET DONE]
 [DEBUG][multi-probe] output file: ../Data/aliexpress.com/windows.csv
@@ -26,6 +45,25 @@ wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Geck
 [DEBUG] lastWindow: 40
 [DEBUG] lastWindow: 50
 [DEBUG] lastWindow: 57
+[DEBUG] lastWindow: 83
+[DEBUG] lastWindow: 109
+[DEBUG] lastWindow: 135
+[DEBUG] lastWindow: 161
+[DEBUG] lastWindow: 183
+[DEBUG] lastWindow: 203
+[DEBUG] lastWindow: 223
+[DEBUG] lastWindow: 239
+[DEBUG] lastWindow: 258
+[DEBUG] lastWindow: 276
+[DEBUG] lastWindow: 296
+[DEBUG] lastWindow: 314
+[DEBUG] lastWindow: 330
+[DEBUG] lastWindow: 348
+[DEBUG] lastWindow: 366
+[DEBUG] lastWindow: 384
+[DEBUG] lastWindow: 402
+[DEBUG] lastWindow: 418
+[DEBUG] lastWindow: 437
 [rv]: 140
 ========STATUS========: -1
 ========DONE========: 1

@@ -1,0 +1,46 @@
+[DEBUG][multi-probe] output file: ../Data/yahoo.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 15
+[DEBUG] lastWindow: 27
+[DEBUG] lastWindow: 32
+[DEBUG] lastWindow: 63
+[DEBUG] lastWindow: 126
+[DEBUG] lastWindow: 204
+[DEBUG] lastWindow: 286
+[DEBUG] lastWindow: 360
+[DEBUG] lastWindow: 442
+[DEBUG] lastWindow: 524
+[DEBUG] lastWindow: 607
+[DEBUG] lastWindow: 691
+[DEBUG] lastWindow: 775
+[DEBUG] lastWindow: 860
+[DEBUG] lastWindow: 945
+[DEBUG] lastWindow: 1031
+[DEBUG] lastWindow: 1117
+[DEBUG] lastWindow: 1204
+[DEBUG] lastWindow: 1291
+[DEBUG] lastWindow: 1379
+[DEBUG] lastWindow: 1467
+[DEBUG] lastWindow: 1556
+[DEBUG] lastWindow: 1646
+[DEBUG] lastWindow: 1740
+[DEBUG] lastWindow: 1835
+[DEBUG] lastWindow: 1934
+[DEBUG] lastWindow: 2037
+[DEBUG] lastWindow: 2146
+[DEBUG] lastWindow: 2261
+[DEBUG] lastWindow: 2385
+[DEBUG] lastWindow: 2520
+[DEBUG] lastWindow: 2667
+[rv]: 360
+========STATUS========: 0
+========DONE========: 1
+[DEBUG][CMD] echo 2830 163 38 >> ../Data/yahoo.com/windows5.csv
+[EXP FINISH]
+
+
