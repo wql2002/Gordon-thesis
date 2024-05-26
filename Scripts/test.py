@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def data_proc1(urlFilePath):
-    # projHomePath = "/home/ubuntu/Gordon"
+    # projHomePath = ".."
     # # projHomePath = "/home/vagrant"
 
     # urlFilePath = projHomePath + "/Data/google.com/windows1.csv"
@@ -154,42 +154,17 @@ def get_size_distri(urlFilePath, resultPath, sizePath, end, start = 0):
         cmd = ["rm", "indexPage"]
         subprocess.run(cmd)
 
-def draw_size_distri(sizePath, plotPath):
-    data = []
-    sizeFile = open(sizePath)
-    csvReader = csv.reader(sizeFile)
-    sizeInfos = list(csvReader)
-    sizeFile.close()
-    
-    for i in range(len(sizeInfos)):
-        # print(urlInfos[i])
-        sizeInfos[i] = sizeInfos[i][0].split(" ")
-        web_size = str(sizeInfos[i][1])
-        data.append(int(web_size) / 1000) # /KB
-    
-    # compute cdf
-    sorted_data = sorted(data)
-    cdf = np.arange(1, len(sorted_data) + 1) / len(sorted_data)
-    # plot cdf
-    plt.step(sorted_data, cdf, where='post', label='CDF')
-    plt.xscale('log')
-    plt.title('CDF of web page sizes')
-    plt.xlabel('web page size(KB)')
-    plt.ylabel('CDF')
-    plt.legend()
-    plt.grid(True)
-    plt.savefig(plotPath)
+
     
 
 if __name__ == "__main__":
-    # data_proc1("/home/ubuntu/Gordon/Data/google.com/windows1.csv")
-    # count_results("/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv", 198)
-    # test_wget("/home/ubuntu/Gordon/Alexa20k/exp_links.csv", 133, 124)
-    # cc_clasify("/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv", 211, 198)
-    # get_size_distri("/home/ubuntu/Gordon/Alexa20k/exp_links.csv",
-    #                 "/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv",
-    #                 "/home/ubuntu/Gordon/Alexa20k/web_size.csv",
+    # data_proc1("../Data/google.com/windows1.csv")
+    count_results("../Alexa20k/cwnd_result.csv", 200)
+    # test_wget("../Alexa20k/exp_links.csv", 133, 124)
+    # cc_clasify("../Alexa20k/cwnd_result.csv", 211, 198)
+    # get_size_distri("../Alexa20k/exp_links.csv",
+    #                 "../Alexa20k/cwnd_result.csv",
+    #                 "../Alexa20k/web_size.csv",
     #                 end = 200, start = 116)
-    draw_size_distri("/home/ubuntu/Gordon/Alexa20k/web_size.csv",
-                     "/home/ubuntu/Gordon/figures/size_distri.png")
+    
     
