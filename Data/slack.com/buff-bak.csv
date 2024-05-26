@@ -1,0 +1,48 @@
+[DEBUG][multi-probe] output file: ../Data/slack.com/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 15
+[DEBUG] lastWindow: 20
+[DEBUG] lastWindow: 21
+[DEBUG] lastWindow: 45
+[DEBUG] lastWindow: 93
+[DEBUG] lastWindow: 189
+[DEBUG] lastWindow: 255
+[DEBUG] lastWindow: 323
+[DEBUG] lastWindow: 395
+[DEBUG] lastWindow: 470
+[DEBUG] lastWindow: 549
+[DEBUG] lastWindow: 630
+[DEBUG] lastWindow: 712
+[DEBUG] lastWindow: 796
+[DEBUG] lastWindow: 882
+[DEBUG] lastWindow: 971
+[DEBUG] lastWindow: 1061
+[DEBUG] lastWindow: 1153
+[DEBUG] lastWindow: 1246
+[DEBUG] lastWindow: 1339
+[DEBUG] lastWindow: 1433
+[DEBUG] lastWindow: 1526
+[DEBUG] lastWindow: 1622
+[DEBUG] lastWindow: 1720
+[DEBUG] lastWindow: 1814
+[DEBUG] lastWindow: 1910
+[DEBUG] lastWindow: 2007
+[DEBUG] lastWindow: 2104
+[DEBUG] lastWindow: 2199
+[DEBUG] lastWindow: 2295
+[DEBUG] lastWindow: 2393
+[DEBUG] lastWindow: 2490
+[DEBUG] lastWindow: 2587
+[DEBUG] lastWindow: 2684
+[rv]: 360
+========STATUS========: 0
+========DONE========: 1
+[DEBUG][CMD] echo 2784 100 40 >> ../Data/slack.com/windows5.csv
+[EXP FINISH]
+
+

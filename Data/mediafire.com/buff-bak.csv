@@ -17,10 +17,14 @@
 [DEBUG] lastWindow: 63
 [DEBUG] lastWindow: 66
 [DEBUG] lastWindow: 68
+[DEBUG] lastWindow: 224
+[DEBUG] lastWindow: 385
+[DEBUG] lastWindow: 550
+[DEBUG] lastWindow: 727
 [rv]: 360
 ========STATUS========: 0
 ========DONE========: 1
-[DEBUG][CMD] echo 200 132 18 >> ../Data/mediafire.com/windows5.csv
+[DEBUG][CMD] echo 842 115 22 >> ../Data/mediafire.com/windows5.csv
 [EXP FINISH]
 
 

@@ -9,10 +9,21 @@
 [DEBUG] lastWindow: 22
 [DEBUG] lastWindow: 23
 [DEBUG] lastWindow: 27
-[rv]: 153
+[DEBUG] lastWindow: 30
+[DEBUG] lastWindow: 32
+[DEBUG] lastWindow: 33
+[DEBUG] lastWindow: 48
+[DEBUG] lastWindow: 52
+[DEBUG] lastWindow: 82
+[DEBUG] lastWindow: 142
+[DEBUG] lastWindow: 264
+[DEBUG] lastWindow: 348
+[DEBUG] lastWindow: 435
+[DEBUG] lastWindow: 526
+[rv]: 360
 ========STATUS========: 0
 ========DONE========: 1
-[DEBUG][CMD] echo 30 3 10 >> ../Data/twitch.tv/windows5.csv
+[DEBUG][CMD] echo 587 61 21 >> ../Data/twitch.tv/windows5.csv
 [EXP FINISH]
 
 

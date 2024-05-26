@@ -1,0 +1,44 @@
+[DEBUG][multi-probe] output file: ../Data/patria.org.ve/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 7
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 18
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 32
+[DEBUG] lastWindow: 33
+[DEBUG] lastWindow: 34
+[DEBUG] lastWindow: 35
+[DEBUG] lastWindow: 54
+wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://www.patria.org.ve/vendors/materialize-login/css/materialize.min.css?md5=3afb914d86f96fab253e972515f3f3ad"
+[WGET DONE]
+[DEBUG][multi-probe] output file: ../Data/patria.org.ve/windows.csv
+[DEBUG] lastWindow: 0
+[DEBUG] lastWindow: 1
+[DEBUG] lastWindow: 2
+[DEBUG] lastWindow: 3
+[DEBUG] lastWindow: 4
+[DEBUG] lastWindow: 5
+[DEBUG] lastWindow: 6
+[DEBUG] lastWindow: 7
+[DEBUG] lastWindow: 8
+[DEBUG] lastWindow: 18
+[DEBUG] lastWindow: 31
+[DEBUG] lastWindow: 32
+[DEBUG] lastWindow: 33
+[DEBUG] lastWindow: 34
+[DEBUG] lastWindow: 35
+[DEBUG] lastWindow: 54
+[rv]: 104
+========STATUS========: -1
+========DONE========: 1
+
+[SKIP]
+[EXP FINISH]
+
+

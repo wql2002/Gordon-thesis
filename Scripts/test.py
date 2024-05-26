@@ -79,11 +79,12 @@ def test_wget(urlFilePath, end, start = 0):
             cmd = ["rm", "index*", "wget-log*"]
             subprocess.run(cmd)
 
-def cc_clasify(urlFilePath, end, start = 0):
-    urlFile = open(urlFilePath)
-    csvReader = csv.reader(urlFile)
-    urlInfos = list(csvReader)
-    urlFile.close()
+def cc_clasify(urlFilePath, end, start = 0, mode = 0):
+    if mode == 0:
+        urlFile = open(urlFilePath)
+        csvReader = csv.reader(urlFile)
+        urlInfos = list(csvReader)
+        urlFile.close()
     
     for i in range(start, end):
         # print(urlInfos[i])
@@ -97,6 +98,14 @@ def cc_clasify(urlFilePath, end, start = 0):
                 print(f"[{domain_name}]:\t\t{cc_result}")
             except Exception as e:
                 print(f"Exception: {e}")
+
+def cc_clasify_local(domain_name):
+    cwnd_path = "../Data/" + domain_name + "/windows.csv"
+    try:
+        cc_result = tcpClassify.classify(cwnd_path, 0)
+        print(f"[{domain_name}]:\t\t{cc_result}")
+    except Exception as e:
+        print(f"Exception: {e}")
 
 def get_size_distri(urlFilePath, resultPath, sizePath, end, start = 0):
     # open and read .csv file 
@@ -120,12 +129,16 @@ def get_size_distri(urlFilePath, resultPath, sizePath, end, start = 0):
         url_result = str(resultInfos[i][1])
         
         # print(f"url_result: {url_result}")
-        if (url_result == "[FAIL]" or 
-            url_result == "[TODO]" or 
-            url_result == "[FORBID]" or 
-            url_result == "[SHORT]"):
-            with open(sizePath, 'a') as f:
-                f.write(f"{url_domain} {0}\n")
+        # if (url_result == "[FAIL]" or 
+        #     url_result == "[TODO]" or 
+        #     url_result == "[FORBID]" or 
+        #     url_result == "[SHORT]"):
+        #     with open(sizePath, 'a') as f:
+        #         f.write(f"{url_domain} {0}\n")
+        #     continue
+        # if url_result != "[TODO]":
+        #     continue
+        if url_result != "unknown_never_go_up_80":
             continue
         
         try:
@@ -183,13 +196,18 @@ def draw_size_distri(sizePath, plotPath):
 
 if __name__ == "__main__":
     # data_proc1("/home/ubuntu/Gordon/Data/google.com/windows1.csv")
-    # count_results("/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv", 198)
+    # count_results("/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv", 216)
     # test_wget("/home/ubuntu/Gordon/Alexa20k/exp_links.csv", 133, 124)
-    # cc_clasify("/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv", 211, 198)
+    cc_clasify("/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv", 217)
     # get_size_distri("/home/ubuntu/Gordon/Alexa20k/exp_links.csv",
     #                 "/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv",
     #                 "/home/ubuntu/Gordon/Alexa20k/web_size.csv",
     #                 end = 200, start = 116)
-    draw_size_distri("/home/ubuntu/Gordon/Alexa20k/web_size.csv",
-                     "/home/ubuntu/Gordon/figures/size_distri.png")
+    # draw_size_distri("/home/ubuntu/Gordon/Alexa20k/web_size.csv",
+    #                  "/home/ubuntu/Gordon/figures/size_distri.png")
+    # get_size_distri("/home/ubuntu/Gordon/Alexa20k/exp_links.csv",
+    #                 "/home/ubuntu/Gordon/Alexa20k/cwnd_result.csv",
+    #                 "/home/ubuntu/Gordon/Alexa20k/80_distri.csv",
+    #                 end = 200)
+    # cc_clasify_local("local_reno_50")
     

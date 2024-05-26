@@ -1,13 +1,10 @@
 [DEBUG][multi-probe] output file: ../Data/xvideos.com/windows.csv
 [DEBUG] lastWindow: 0
-[rv]: 124
+[DEBUG] lastWindow: 177
+[rv]: 360
 ========STATUS========: 0
 ========DONE========: 1
-[DEBUG][CMD] echo 1 1 1 >> ../Data/xvideos.com/windows5.csv
+[DEBUG][CMD] echo 340 163 2 >> ../Data/xvideos.com/windows5.csv
 [EXP FINISH]
 
 
-[DEBUG][multi-probe] output file: ../Data/xvideos.com/windows.csv
-[DEBUG] lastWindow: 0
-wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://www.xvideos.com/rss/del.xml"
-[WGET DONE]

@@ -14,6 +14,7 @@
 [DEBUG] lastWindow: 49
 [DEBUG] lastWindow: 55
 [DEBUG] lastWindow: 100
+[DEBUG] lastWindow: 129
 wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0' -O indexPage --no-check-certificate "https://sg.godaddy.com/community/Managed-WordPress-Hosting/FTP-connected-but-unable-to-transfer-files/td-p/40341"
 [WGET DONE]
 [DEBUG][multi-probe] output file: ../Data/godaddy.com/windows.csv
@@ -32,6 +33,7 @@ wget -t 10 -T 45 -U 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Geck
 [DEBUG] lastWindow: 49
 [DEBUG] lastWindow: 55
 [DEBUG] lastWindow: 100
+[DEBUG] lastWindow: 129
 [rv]: 360
 ========STATUS========: -1
 ========DONE========: 1
