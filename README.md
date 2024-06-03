@@ -5,7 +5,6 @@ Localised bottlenecks for server transport layer protocol analysis.
 ```Scripts/quick_dependancies.sh```
 
 ## Runnning tests:
------------------
 ### Single runs 
 1. Launch a delay shell  
 ```$ mm-delay 50```  
@@ -28,12 +27,7 @@ cleaned data is stored in Gordon/Data/windows.csv
 4. Ending all processes *(not necessary)*
 ```mm-delay 50 $ ./clean.sh```
 
-## Analyzing the data  
-The final data at the end of either of the above tests are stored in ```windows.csv```. The individual trials for 'multiple-trails-per-RTT' test type are stored as ```windows1.csv```, ```windows2.csv```, ... ```windowsn.csv``` for 'n' trials.
-Plot the results using ``` gnuplot plot.plt --persist ``` for multiple-trials tests.  
 
-For single trial tests, you can simply open a ``` gnuplpot ``` shell and plot as ``` plot 'windows.csv' u 3:2 w lines ```
-
-## Original Publication
+## Reference
 
 - Ayush Mishra, Xiangpeng Sun, Atishya Jain, Sameer Pande, Raj Joshi, and Ben Leong. ["The Great Internet TCP Congestion Control Census"](https://www.comp.nus.edu.sg/~bleong/publications/sigmetrics2020-gordon.pdf). Proceedings of the ACM on Measurement and Analysis of Computing Systems (SIGMETRICS 2019). Volume 3. Issue 3. December 2019.  
