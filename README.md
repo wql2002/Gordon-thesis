@@ -1,9 +1,5 @@
-# Gordon
+# thu-Gordon
 Localised bottlenecks for server transport layer protocol analysis.  
-
-## Publication
-
-- Ayush Mishra, Xiangpeng Sun, Atishya Jain, Sameer Pande, Raj Joshi, and Ben Leong. ["The Great Internet TCP Congestion Control Census"](https://www.comp.nus.edu.sg/~bleong/publications/sigmetrics2020-gordon.pdf). Proceedings of the ACM on Measurement and Analysis of Computing Systems (SIGMETRICS 2019). Volume 3. Issue 3. December 2019.  
 
 ## Dependancies:
 ```Scripts/quick_dependancies.sh```
@@ -38,3 +34,6 @@ Plot the results using ``` gnuplot plot.plt --persist ``` for multiple-trials te
 
 For single trial tests, you can simply open a ``` gnuplpot ``` shell and plot as ``` plot 'windows.csv' u 3:2 w lines ```
 
+## Original Publication
+
+- Ayush Mishra, Xiangpeng Sun, Atishya Jain, Sameer Pande, Raj Joshi, and Ben Leong. ["The Great Internet TCP Congestion Control Census"](https://www.comp.nus.edu.sg/~bleong/publications/sigmetrics2020-gordon.pdf). Proceedings of the ACM on Measurement and Analysis of Computing Systems (SIGMETRICS 2019). Volume 3. Issue 3. December 2019.  
